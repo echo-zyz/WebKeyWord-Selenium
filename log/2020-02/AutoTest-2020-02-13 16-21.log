@@ -1,0 +1,10 @@
+16:21:16  [INFO ] : 点击xpath元素找不到
+16:21:16  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:31) [classes/:?]
+16:21:16  [INFO ] : 点击xpath元素找不到
+16:21:16  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:32) [classes/:?]

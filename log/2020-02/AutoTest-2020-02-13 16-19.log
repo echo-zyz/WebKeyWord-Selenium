@@ -1,0 +1,17 @@
+16:19:45  [INFO ] : 开始登录电商前端
+16:19:45  [INFO ] : 点击xpath元素找不到
+16:19:45  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.webKeyWord.WebKeyWord.loginShop(WebKeyWord.java:331) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:8) [classes/:?]
+16:19:45  [INFO ] : 电商前端登录失败
+16:19:45  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.loginShop(WebKeyWord.java:340) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:8) [classes/:?]
+16:19:50  [INFO ] : 点击xpath元素找不到
+16:19:50  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:10) [classes/:?]

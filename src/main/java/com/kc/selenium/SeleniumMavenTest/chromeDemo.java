@@ -10,14 +10,14 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class chromeDemo {
 	public static void main(String[] args) {
 //		// 设置临时系统变量，让代码能找到driver.exe，不同的浏览器配置不同的参数，并且把driver.exe放到maven里面用相对路径调用
-//		System.setProperty("webdriver.chrome.driver", "webDrivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "webDrivers/chromedriver.exe");
 //		// Create a new instance of the Firefox driver
 //		// Notice that the remainder of the code relies on the interface,
 //		// not the implementation.
 //		// 实例化webdriver，完成浏览器启动
-//		WebDriver driver = new ChromeDriver();
-		GoogleDriver gg=new GoogleDriver("webDrivers/chromedriver.exe");
-		WebDriver driver=gg.getdriver();
+		WebDriver driver = new ChromeDriver();
+//		GoogleDriver gg=new GoogleDriver("webDrivers/chromedriver.exe");
+//		WebDriver driver=gg.getdriver();
 
 		// 访问浏览器
 		driver.get("http://www.baidu.com");

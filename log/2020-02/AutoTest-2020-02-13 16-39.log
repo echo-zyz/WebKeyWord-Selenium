@@ -1,0 +1,18 @@
+16:39:08  [INFO ] : 点击xpath元素找不到
+16:39:08  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.buyGood(shopBuySomething.java:33) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:11) [classes/:?]
+16:39:28  [INFO ] : 点击xpath元素找不到
+16:39:28  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.buyGood(shopBuySomething.java:39) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:11) [classes/:?]
+16:39:28  [INFO ] : 点击xpath元素找不到
+16:39:28  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.buyGood(shopBuySomething.java:40) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:11) [classes/:?]

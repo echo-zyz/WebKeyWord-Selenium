@@ -1,0 +1,72 @@
+16:20:00  [INFO ] : 点击xpath元素找不到
+16:20:00  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:16) [classes/:?]
+16:20:00  [INFO ] : 通过标题切换浏览器失败
+16:20:00  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.switchWindowByTitle(WebKeyWord.java:394) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:18) [classes/:?]
+16:20:10  [INFO ] : 点击xpath元素找不到
+16:20:10  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:20) [classes/:?]
+16:20:10  [INFO ] : 点击xpath元素找不到
+16:20:10  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:21) [classes/:?]
+16:20:15  [INFO ] : 点击xpath元素找不到
+16:20:15  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:23) [classes/:?]
+16:20:25  [INFO ] : 点击xpath元素找不到
+16:20:25  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:25) [classes/:?]
+16:20:45  [INFO ] : 点击xpath元素找不到
+16:20:45  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:31) [classes/:?]
+16:20:45  [INFO ] : 点击xpath元素找不到
+16:20:45  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:32) [classes/:?]
+.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:10) [classes/:?]
+16:20:31  [INFO ] : 点击xpath元素找不到
+16:20:31  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:16) [classes/:?]
+16:20:31  [INFO ] : 通过标题切换浏览器失败
+16:20:31  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.switchWindowByTitle(WebKeyWord.java:394) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:18) [classes/:?]
+16:20:41  [INFO ] : 点击xpath元素找不到
+16:20:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:20) [classes/:?]
+16:20:41  [INFO ] : 点击xpath元素找不到
+16:20:41  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:21) [classes/:?]
+16:20:46  [INFO ] : 点击xpath元素找不到
+16:20:46  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:23) [classes/:?]
+16:20:56  [INFO ] : 点击xpath元素找不到
+16:20:56  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.webKeyWord.WebKeyWord.click(WebKeyWord.java:199) [classes/:?]
+	at com.kc.homework.shopBuySomething.main(shopBuySomething.java:25) [classes/:?]

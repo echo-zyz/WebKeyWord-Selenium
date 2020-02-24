@@ -1,0 +1,99 @@
+14:33:20  [INFO ] : 通过cmd启动appiumserver服务
+14:33:20  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+14-33-20AppiumLog.txt --local-timezone --log-timestamp
+14:33:30  [INFO ] : 启动待测试APP
+14:33:39  [INFO ] : =====================测试开始=================
+14:34:01  [INFO ] : 通过cmd启动appiumserver服务
+14:34:01  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+14-34-01AppiumLog.txt --local-timezone --log-timestamp
+14:34:11  [INFO ] : 启动待测试APP
+14:34:22  [INFO ] : =====================测试开始=================
+14:39:25  [INFO ] : 通过cmd启动appiumserver服务
+14:39:25  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+14-39-25AppiumLog.txt --local-timezone --log-timestamp
+14:39:35  [INFO ] : 启动待测试APP
+14:39:37  [INFO ] : 启动失败！
+14:39:37  [ERROR] : org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:78) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:21) [classes/:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:72) ~[classes/:?]
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:?]
+	at okio.Okio$2.read(Okio.java:140) ~[okio-1.14.0.jar:?]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227) ~[okio-1.14.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152) ~[selenium-remote-driver-3.141.59.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105) ~[selenium-remote-driver-3.141.59.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:72) ~[classes/:?]
+	... 1 more
+14:39:37  [INFO ] : =====================测试开始=================
+14:39:41  [INFO ] : 通过cmd启动appiumserver服务
+14:39:41  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+14-39-41AppiumLog.txt --local-timezone --log-timestamp
+14:39:51  [INFO ] : 启动待测试APP
+14:40:00  [INFO ] : =====================测试开始=================

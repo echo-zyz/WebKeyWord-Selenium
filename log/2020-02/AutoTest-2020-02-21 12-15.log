@@ -1,0 +1,60 @@
+11:54:05  [INFO ] : 通过cmd启动appiumserver服务
+11:54:05  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-54-05AppiumLog.txt --local-timezone --log-timestamp
+11:54:25  [INFO ] : 启动手机系统浏览器（chrome）
+11:55:21  [INFO ] : 通过cmd启动appiumserver服务
+11:55:21  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-55-21AppiumLog.txt --local-timezone --log-timestamp
+11:55:41  [INFO ] : 启动手机系统浏览器（chrome）
+12:00:19  [INFO ] : 通过cmd启动appiumserver服务
+12:00:19  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+12-00-19AppiumLog.txt --local-timezone --log-timestamp
+12:00:39  [INFO ] : 启动手机系统浏览器（chrome）
+12:00:59  [INFO ] : 执行cmd命令:adb shell input tap 452 552
+12:01:02  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+12:01:10  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+12:01:15  [INFO ] : 现在的context是：CHROMIUM
+12:01:52  [INFO ] : 现在的context是：NATIVE_APP
+12:01:55  [INFO ] : 执行cmd命令:adb shell input tap 298 144
+12:01:58  [INFO ] : 执行cmd命令:adb shell input tap 298 144
+12:02:01  [INFO ] : 执行cmd命令:adb shell input text 地球脉动 
+12:02:01  [INFO ] : 执行cmd命令:adb shell input tap 181 233
+12:02:04  [INFO ] : 执行cmd命令:adb shell input tap 181 233
+12:03:00  [INFO ] : 通过cmd启动appiumserver服务
+12:03:00  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+12-03-00AppiumLog.txt --local-timezone --log-timestamp
+12:03:20  [INFO ] : 启动手机系统浏览器（chrome）
+12:03:39  [INFO ] : 执行cmd命令:adb shell input tap 452 552
+12:03:42  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+12:03:47  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 100351a8-41be-4e17-acfd-21c5628dfce2
+*** Element info: {Using=xpath, value=//*[@content-desc='账号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 100351a8-41be-4e17-acfd-21c5628dfce2
+*** Element info: {Using=xpath, value=//*[@content-desc='账号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:31) [classes/:?]
+12:03:48  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200221+12-03-47.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200221+12-03-47.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:31) [classes/:?]
+12:03:48  [ERROR] : 截图失败！
+12:03:53  [INFO ] : 现在的context是：CHROMIUM
+12:05:06  [INFO ] : 通过cmd启动appiumserver服务
+12:05:06  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+12-05-06AppiumLog.txt --local-timezone --log-timestamp
+12:05:26  [INFO ] : 启动手机系统浏览器（chrome）
+12:05:46  [INFO ] : 执行cmd命令:adb shell input tap 452 552
+12:05:49  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+12:05:58  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+12:06:03  [INFO ] : 现在的context是：CHROMIUM
+12:06:40  [INFO ] : 现在的context是：NATIVE_APP
+12:06:43  [INFO ] : 执行cmd命令:adb shell input tap 298 144
+12:06:46  [INFO ] : 执行cmd命令:adb shell input tap 298 144
+12:06:49  [INFO ] : 执行cmd命令:adb shell input text 地球脉动 

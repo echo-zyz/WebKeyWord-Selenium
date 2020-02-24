@@ -1,0 +1,21 @@
+23:17:18  [INFO ] : 通过cmd启动appiumserver服务
+23:17:18  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+23-17-18AppiumLog.txt --local-timezone --log-timestamp
+23:17:38  [INFO ] : 启动手机系统浏览器（chrome）
+23:17:59  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+23:18:10  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+23:18:21  [INFO ] : //*[@text='手机/邮箱/优酷土豆账号']元素中输入18617099614
+23:18:22  [INFO ] : //*[@resource-id='fm-login-password']元素中输入qq08683065
+23:18:23  [INFO ] : //*[@content-desc='登录']元素进行点击
+23:19:39  [INFO ] : 通过cmd启动appiumserver服务
+23:19:39  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+23-19-39AppiumLog.txt --local-timezone --log-timestamp
+23:20:00  [INFO ] : 启动手机系统浏览器（chrome）
+23:20:19  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+23:20:30  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+23:20:41  [INFO ] : //*[@text='手机/邮箱/优酷土豆账号']元素中输入18617099614
+23:20:42  [INFO ] : //*[@resource-id='fm-login-password']元素中输入qq08683065
+23:20:43  [INFO ] : //*[@content-desc='登录']元素进行点击
+23:28:56  [INFO ] : 通过cmd启动appiumserver服务
+23:28:56  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+23-28-56AppiumLog.txt --local-timezone --log-timestamp
+23:29:16  [INFO ] : 启动手机系统浏览器（chrome）
+23:29:40  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+23:29:51  [INFO ] : //*[@content-desc='账号登录']元素进行点击

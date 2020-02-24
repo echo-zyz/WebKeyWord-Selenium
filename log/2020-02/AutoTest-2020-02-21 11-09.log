@@ -1,0 +1,6 @@
+10:59:05  [INFO ] : 通过cmd启动appiumserver服务
+10:59:05  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+10-59-05AppiumLog.txt --local-timezone --log-timestamp
+10:59:25  [INFO ] : 启动手机系统浏览器（chrome）
+10:59:45  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+10:59:56  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+11:00:06  [INFO ] : 现在的context是：CHROMIUM

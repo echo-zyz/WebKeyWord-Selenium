@@ -1,0 +1,201 @@
+17:34:31  [INFO ] : 通过cmd启动appiumserver服务
+17:34:31  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-34-31AppiumLog.txt --local-timezone --log-timestamp
+17:34:41  [INFO ] : 启动待测试APP
+17:34:48  [INFO ] : 启动失败！
+17:34:48  [ERROR] : org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:111) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:23) [classes/:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:105) ~[classes/:?]
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:?]
+	at okio.Okio$2.read(Okio.java:140) ~[okio-1.14.0.jar:?]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227) ~[okio-1.14.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152) ~[selenium-remote-driver-3.141.59.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105) ~[selenium-remote-driver-3.141.59.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:105) ~[classes/:?]
+	... 1 more
+17:34:48  [INFO ] : =====================测试开始=================
+17:34:48  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:167) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.QQLogin(QQappTest.java:61) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:26) [classes/:?]
+17:36:50  [INFO ] : 通过cmd启动appiumserver服务
+17:36:50  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-36-50AppiumLog.txt --local-timezone --log-timestamp
+17:37:00  [INFO ] : 启动待测试APP
+17:37:12  [INFO ] : =====================测试开始=================
+17:37:16  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:37:17  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:37:18  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:37:24  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+17:37:29  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+17:37:32  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+17:37:37  [INFO ] : 执行cmd命令:adb shell input tap 459 214
+17:37:42  [INFO ] : //*[@content-desc='聊天设置']元素进行点击
+17:37:43  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/clw']元素进行点击
+17:37:45  [INFO ] : //*[@content-desc='QQ空间']元素进行点击
+17:37:50  [INFO ] : 执行cmd命令:adb shell input tap 522 780
+17:37:55  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/c7p']元素进行点击
+17:37:56  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/bh5']元素进行点击
+17:37:58  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h_0']元素中输入roy老师好帅！
+17:37:59  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h8u']元素进行点击
+17:38:04  [INFO ] : //*[@content-desc='roy老师好帅！']断言成功，测试用例执行成功
+17:38:04  [INFO ] : 执行cmd命令:taskkill /F /IM cmd.exe
+17:38:29  [INFO ] : 通过cmd启动appiumserver服务
+17:38:29  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-38-29AppiumLog.txt --local-timezone --log-timestamp
+17:38:39  [INFO ] : 启动待测试APP
+17:38:50  [INFO ] : =====================测试开始=================
+17:38:53  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:38:55  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:38:55  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:39:02  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+17:39:07  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2f3cf59b-0f0a-461b-b99e-7e14be8826c1
+*** Element info: {Using=xpath, value=//*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2f3cf59b-0f0a-461b-b99e-7e14be8826c1
+*** Element info: {Using=xpath, value=//*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:180) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.QzoneLikesAndComments(QQappTest.java:42) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:31) [classes/:?]
+17:39:23  [INFO ] : 通过cmd启动appiumserver服务
+17:39:23  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-39-23AppiumLog.txt --local-timezone --log-timestamp
+17:39:33  [INFO ] : 启动待测试APP
+17:39:42  [INFO ] : =====================测试开始=================
+17:39:45  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:39:47  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:39:47  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:39:54  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+17:39:59  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+17:40:02  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+17:40:07  [INFO ] : 执行cmd命令:adb shell input tap 459 214
+17:40:12  [INFO ] : //*[@content-desc='聊天设置']元素进行点击
+17:40:13  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/clw']元素进行点击
+17:40:15  [INFO ] : //*[@content-desc='QQ空间']元素进行点击
+17:40:20  [INFO ] : 执行cmd命令:adb shell input tap 522 780
+17:40:25  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/c7p']元素进行点击
+17:40:26  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/bh5']元素进行点击
+17:40:28  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h_0']元素中输入roy老师好帅！
+17:40:28  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h8u']元素进行点击
+17:40:33  [INFO ] : //*[@content-desc='roy老师好帅！']断言成功，测试用例执行成功
+17:40:33  [INFO ] : 执行cmd命令:taskkill /F /IM cmd.exe
+17:45:29  [INFO ] : 通过cmd启动appiumserver服务
+17:45:29  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-45-29AppiumLog.txt --local-timezone --log-timestamp
+17:45:39  [INFO ] : 启动待测试APP
+17:45:50  [INFO ] : =====================测试开始=================
+17:45:54  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:45:55  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:45:55  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:46:02  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+17:46:07  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+17:46:10  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+17:46:15  [INFO ] : 执行cmd命令:adb shell input tap 459 214
+17:46:20  [INFO ] : //*[@content-desc='聊天设置']元素进行点击
+17:46:21  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/clw']元素进行点击
+17:46:23  [INFO ] : //*[@content-desc='QQ空间']元素进行点击
+17:46:28  [INFO ] : 执行cmd命令:adb shell input tap 522 780
+17:46:34  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/c7p']元素进行点击
+17:46:34  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/bh5']元素进行点击
+17:46:36  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h_0']元素中输入roy老师好帅！
+17:46:37  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h8u']元素进行点击
+17:46:43  [INFO ] : //*[@content-desc='roy老师好帅！']断言成功，测试用例执行成功
+17:46:43  [INFO ] : 执行cmd命令:taskkill /F /IM cmd.exe
+17:48:01  [INFO ] : 通过cmd启动appiumserver服务
+17:48:01  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-48-01AppiumLog.txt --local-timezone --log-timestamp
+17:48:11  [INFO ] : 启动待测试APP
+17:48:20  [INFO ] : =====================测试开始=================
+17:48:23  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:48:25  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:48:25  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:48:32  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+17:48:37  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+17:48:40  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+17:48:45  [INFO ] : 执行cmd命令:adb shell input tap 459 214
+17:48:50  [INFO ] : //*[@content-desc='聊天设置']元素进行点击
+17:48:51  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/clw']元素进行点击
+17:48:53  [INFO ] : //*[@content-desc='QQ空间']元素进行点击
+17:48:58  [INFO ] : 执行cmd命令:adb shell input tap 522 780
+17:49:04  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/c7p']元素进行点击
+17:49:04  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/bh5']元素进行点击
+17:49:06  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h_0']元素中输入roy老师好帅！
+17:49:06  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h8u']元素进行点击
+17:49:12  [INFO ] : //*[@content-desc='roy老师好帅！']断言成功，测试用例执行成功
+17:49:12  [INFO ] : 执行cmd命令:taskkill /F /IM cmd.exe

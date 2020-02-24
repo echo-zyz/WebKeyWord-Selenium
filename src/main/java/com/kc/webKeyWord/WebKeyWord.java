@@ -46,15 +46,18 @@ public class WebKeyWord {
 		else if(browserType=="firefox") {
 			FFDriver ff=new FFDriver("", "webDrivers/geckodriver.exe");
 	    	driver = ff.getdriver();
+	    	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 		else if(browserType=="chrome") {
 			GoogleDriver gg=new GoogleDriver("webDrivers/chromedriver.exe");
 			driver=gg.getdriver();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 		else {
 			//用selenium自己的方式来启动浏览器
 			System.setProperty("webdriver.gecko.driver", "webDrivers/geckodriver.exe");
 			driver=new FirefoxDriver();
+			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		}
 	}
 	/**

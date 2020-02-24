@@ -1,0 +1,8 @@
+10:40:47  [INFO ] : 通过cmd启动appiumserver服务
+10:40:47  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+10-40-47AppiumLog.txt --local-timezone --log-timestamp
+10:41:07  [INFO ] : 启动手机系统浏览器（chrome）
+10:41:35  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+10:41:45  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+10:41:57  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614
+10:41:58  [INFO ] : //*[@resource-id='fm-login-password']元素中输入qq08683065
+10:41:58  [INFO ] : //*[@content-desc='登录']元素进行点击

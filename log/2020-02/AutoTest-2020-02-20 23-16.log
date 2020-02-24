@@ -1,0 +1,234 @@
+22:55:33  [INFO ] : 通过cmd启动appiumserver服务
+22:55:33  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+22-55-33AppiumLog.txt --local-timezone --log-timestamp
+22:55:53  [INFO ] : 启动手机系统浏览器（chrome）
+22:56:25  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+22:56:26  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[content-desc='账号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[content-desc='账号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:28) [classes/:?]
+22:56:27  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200220+22-56-26.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200220+22-56-26.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:28) [classes/:?]
+22:56:27  [ERROR] : 截图失败！
+22:56:28  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[@text='手机/邮箱/优酷土豆账号']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[@text='手机/邮箱/优酷土豆账号']}
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:187) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:29) [classes/:?]
+22:56:29  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200220+22-56-28.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200220+22-56-28.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:188) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:29) [classes/:?]
+22:56:29  [ERROR] : 截图失败！
+22:56:30  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[@resource-id='fm-login-password']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[@resource-id='fm-login-password']}
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:187) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:30) [classes/:?]
+22:56:31  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200220+22-56-30.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200220+22-56-30.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:188) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:30) [classes/:?]
+22:56:31  [ERROR] : 截图失败！
+22:56:32  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[content-desc='登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f2a2e1a8-ff95-4717-b14f-254e0c4158dd
+*** Element info: {Using=xpath, value=//*[content-desc='登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:31) [classes/:?]
+22:56:33  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200220+22-56-32.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200220+22-56-32.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:31) [classes/:?]
+22:56:33  [ERROR] : 截图失败！
+22:57:15  [INFO ] : 通过cmd启动appiumserver服务
+22:57:15  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+22-57-15AppiumLog.txt --local-timezone --log-timestamp
+22:57:35  [INFO ] : 启动手机系统浏览器（chrome）
+22:58:37  [INFO ] : 通过cmd启动appiumserver服务
+22:58:37  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+22-58-37AppiumLog.txt --local-timezone --log-timestamp
+22:58:57  [INFO ] : 启动手机系统浏览器（chrome）
+22:59:18  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+22:59:29  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[content-desc='账号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[content-desc='账号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:29) [classes/:?]
+22:59:30  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200220+22-59-29.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200220+22-59-29.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:29) [classes/:?]
+22:59:30  [ERROR] : 截图失败！
+22:59:31  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[@text='手机/邮箱/优酷土豆账号']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[@text='手机/邮箱/优酷土豆账号']}
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:187) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:30) [classes/:?]
+22:59:32  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200220+22-59-31.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200220+22-59-31.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:188) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:30) [classes/:?]
+22:59:32  [ERROR] : 截图失败！
+22:59:33  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[@resource-id='fm-login-password']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[@resource-id='fm-login-password']}
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:187) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:31) [classes/:?]
+22:59:34  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200220+22-59-33.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200220+22-59-33.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:188) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:31) [classes/:?]
+22:59:34  [ERROR] : 截图失败！
+22:59:34  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[content-desc='登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cfb59be8-0663-4e37-bb2c-08477f6e1f1e
+*** Element info: {Using=xpath, value=//*[content-desc='登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:32) [classes/:?]
+22:59:35  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200220+22-59-34.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200220+22-59-34.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:32) [classes/:?]
+22:59:35  [ERROR] : 截图失败！
+23:06:09  [INFO ] : 通过cmd启动appiumserver服务
+23:06:09  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+23-06-09AppiumLog.txt --local-timezone --log-timestamp
+23:06:29  [INFO ] : 启动手机系统浏览器（chrome）
+23:06:53  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+23:07:04  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+23:07:05  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 33a69199-b5bf-408e-892a-bb23ead36c84
+*** Element info: {Using=xpath, value=//*[@text='手机/邮箱/优酷土豆账号']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, databaseEnabled: false, desired: {browserName: Browser, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 33a69199-b5bf-408e-892a-bb23ead36c84
+*** Element info: {Using=xpath, value=//*[@text='手机/邮箱/优酷土豆账号']}
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:187) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:30) [classes/:?]
+23:07:06  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200220+23-07-05.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200220+23-07-05.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:188) [classes/:?]
+	at com.kc.AppiumTest.H5AppiumTest.main(H5AppiumTest.java:30) [classes/:?]
+23:07:06  [ERROR] : 截图失败！
+23:07:07  [INFO ] : //*[@resource-id='fm-login-password']元素中输入qq08683065
+23:07:08  [INFO ] : //*[@content-desc='登录']元素进行点击

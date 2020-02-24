@@ -1,0 +1,211 @@
+17:36:18  [INFO ] : 通过cmd启动appiumserver服务
+17:36:18  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-36-18AppiumLog.txt --local-timezone --log-timestamp
+17:36:28  [INFO ] : 启动待测试APP
+17:36:32  [INFO ] : 启动失败！
+17:36:32  [ERROR] : org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+org.openqa.selenium.WebDriverException: Connection refused: connect
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:111) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:13) [classes/:?]
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method) ~[?:?]
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:400) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:243) ~[?:?]
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:225) ~[?:?]
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:148) ~[?:?]
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:402) ~[?:?]
+	at java.net.Socket.connect(Socket.java:591) ~[?:?]
+	at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105) ~[selenium-remote-driver-3.141.59.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:105) ~[classes/:?]
+	... 1 more
+17:36:38  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:15) [classes/:?]
+17:37:23  [INFO ] : 通过cmd启动appiumserver服务
+17:37:23  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-37-23AppiumLog.txt --local-timezone --log-timestamp
+17:37:33  [INFO ] : 启动待测试APP
+17:38:27  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: e288f3f7-ef44-4321-ac67-7d03e981f2b8
+*** Element info: {Using=xpath, value=//*[@text='登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: e288f3f7-ef44-4321-ac67-7d03e981f2b8
+*** Element info: {Using=xpath, value=//*[@text='登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:15) [classes/:?]
+17:38:28  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+17-38-27.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+17-38-27.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:15) [classes/:?]
+17:38:28  [ERROR] : 截图失败！
+17:39:02  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: e288f3f7-ef44-4321-ac67-7d03e981f2b8
+*** Element info: {Using=xpath, value=//*[@text='用微信号/QQ号/邮箱登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: e288f3f7-ef44-4321-ac67-7d03e981f2b8
+*** Element info: {Using=xpath, value=//*[@text='用微信号/QQ号/邮箱登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:17) [classes/:?]
+17:39:02  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+17-39-02.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+17-39-02.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:17) [classes/:?]
+17:39:02  [ERROR] : 截图失败！
+17:39:28  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build i17:39:40  [INFO ] : //*[@text='登录']元素进行点击
+17:40:14  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 0773955a-4903-4282-9718-63a0d96c5711
+*** Element info: {Using=xpath, value=//*[@text='用微信号/QQ号/邮箱登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 0773955a-4903-4282-9718-63a0d96c5711
+*** Element info: {Using=xpath, value=//*[@text='用微信号/QQ号/邮箱登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:17) [classes/:?]
+17:40:14  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+17-40-14.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+17-40-14.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:17) [classes/:?]
+17:40:14  [ERROR] : 截图失败！
+17:40:47  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 0773955a-4903-4282-9718-63a0d96c5711
+*** Element info: {Using=xpath, value=//*[@text='请填写微信号/QQ号/邮箱']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 0773955a-4903-4282-9718-63a0d96c5711
+*** Element info: {Using=xpath, value=//*[@text='请填写微信号/QQ号/邮箱']}
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:187) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:19) [classes/:?]
+17:40:48  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200223+17-40-47.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200223+17-40-47.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:188) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:19) [classes/:?]
+17:40:48  [ERROR] : 截图失败！
+17:40:48  [INFO ] : //*[@resource-id='com.tencent.mm:id/m6']元素中输入ACHAO19870426
+17:40:49  [INFO ] : //*[@text='登录']元素进行点击
+17:41:22  [INFO ] : 通过cmd启动appiumserver服务
+17:41:22  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-41-22AppiumLog.txt --local-timezone --log-timestamp
+17:41:32  [INFO ] : 启动待测试APP
+17:41:49  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 3b206a26-7938-4d6f-99ee-4f6d44b5884c
+*** Element info: {Using=xpath, value=//*[@text='用微信号/QQ号/邮箱登录']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 3b206a26-7938-4d6f-99ee-4f6d44b5884c
+*** Element info: {Using=xpath, value=//*[@text='用微信号/QQ号/邮箱登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:15) [classes/:?]
+17:43:19  [INFO ] : 通过cmd启动appiumserver服务
+17:43:19  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-43-19AppiumLog.txt --local-timezone --log-timestamp
+17:43:29  [INFO ] : 启动待测试APP
+17:45:09  [INFO ] : 通过cmd启动appiumserver服务
+17:45:09  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-45-09AppiumLog.txt --local-timezone --log-timestamp
+17:45:19  [INFO ] : 启动待测试APP
+17:45:34  [INFO ] : 执行cmd命令:adb shell input swipe 435 296 435 1400 3
+17:46:50  [INFO ] : 通过cmd启动appiumserver服务
+17:46:50  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-46-50AppiumLog.txt --local-timezone --log-timestamp
+17:47:00  [INFO ] : 启动待测试APP
+17:47:15  [INFO ] : 执行cmd命令:adb shell input swipe 435 296 435 1400 1
+17:53:12  [INFO ] : 通过cmd启动appiumserver服务
+17:53:12  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-53-12AppiumLog.txt --local-timezone --log-timestamp
+17:53:22  [INFO ] : 启动待测试APP
+17:56:43  [INFO ] : 通过cmd启动appiumserver服务
+17:56:43  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+17-56-43AppiumLog.txt --local-timezone --log-timestamp
+17:56:53  [INFO ] : 启动待测试APP
+18:00:18  [INFO ] : 通过cmd启动appiumserver服务
+18:00:18  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+18-00-18AppiumLog.txt --local-timezone --log-timestamp
+18:00:28  [INFO ] : 启动待测试APP

@@ -1,0 +1,19 @@
+16:02:03  [INFO ] : 通过cmd启动appiumserver服务
+16:02:03  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+16-02-03AppiumLog.txt --local-timezone --log-timestamp
+16:02:13  [INFO ] : 启动待测试APP
+16:02:29  [INFO ] : =====================测试开始=================
+16:02:32  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+16:02:34  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+16:02:34  [INFO ] : //*[@content-desc='登 录']元素进行点击
+16:02:41  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+16:02:44  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+16:04:35  [INFO ] : 通过cmd启动appiumserver服务
+16:04:35  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+16-04-35AppiumLog.txt --local-timezone --log-timestamp
+16:04:45  [INFO ] : 启动待测试APP
+16:04:54  [INFO ] : =====================测试开始=================
+16:04:57  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+16:04:59  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+16:04:59  [INFO ] : //*[@content-desc='登 录']元素进行点击
+16:05:05  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+16:05:06  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+16:05:08  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy

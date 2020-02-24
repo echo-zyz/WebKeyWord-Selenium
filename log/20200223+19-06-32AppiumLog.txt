@@ -1,0 +1,284 @@
+2020-02-23 19:06:33:312 [Appium] Welcome to Appium v1.16.0
+2020-02-23 19:06:33:313 [Appium] Non-default server args:
+2020-02-23 19:06:33:314 [Appium]   address: 127.0.0.1
+2020-02-23 19:06:33:315 [Appium]   port: 12345
+2020-02-23 19:06:33:315 [Appium]   logFile: log/20200223+19-06-32AppiumLog.txt
+2020-02-23 19:06:33:316 [Appium]   logTimestamp: true
+2020-02-23 19:06:33:320 [Appium]   localTimezone: true
+2020-02-23 19:06:33:355 [Appium] Appium REST http interface listener started on 127.0.0.1:12345
+2020-02-23 19:06:42:491 [HTTP] --> POST /wd/hub/session
+2020-02-23 19:06:42:492 [HTTP] {"desiredCapabilities":{"appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"noSign":true,"platformVersion":"5.1.1","unicodeKeyboard":true,"platformName":"Android","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001","resetKeyboard":true},"capabilities":{"firstMatch":[{"appium:appActivity":"com.tencent.mm.ui.LauncherUI","appium:appPackage":"com.tencent.mm","appium:deviceName":"127.0.0.1:62001","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"5.1.1","appium:resetKeyboard":true,"appium:udid":"127.0.0.1:62001","appium:unicodeKeyboard":true}]}}
+2020-02-23 19:06:42:494 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","noReset":true,"noSign":true,"platformVersion":"5.1.1","unicodeKeyboard":true,"platformName":"Android","udid":"127.0.0.1:62001","deviceName":"127.0.0.1:62001","resetKeyboard":true},null,{"firstMatch":[{"appium:appActivity":"com.tencent.mm.ui.LauncherUI","appium:appPackage":"com.tencent.mm","appium:deviceName":"127.0.0.1:62001","appium:noReset":true,"appium:noSign":true,"platformName":"android","appium:platformVersion":"5.1.1","appium:resetKeyboard":true,"appium:udid":"127.0.0.1:62001","appium:unicodeKeyboard":true}]}]
+2020-02-23 19:06:42:495 [BaseDriver] Event 'newSessionRequested' logged at 1582456002495 (19:06:42 GMT+0800 (GMT+08:00))
+2020-02-23 19:06:42:501 [Appium] 
+2020-02-23 19:06:42:502 [Appium] ======================================================================
+2020-02-23 19:06:42:502 [Appium]   DEPRECATION WARNING:
+2020-02-23 19:06:42:503 [Appium] 
+2020-02-23 19:06:42:503 [Appium]   The 'automationName' capability was not provided in the desired 
+2020-02-23 19:06:42:503 [Appium]   capabilities for this Android session
+2020-02-23 19:06:42:504 [Appium] 
+2020-02-23 19:06:42:504 [Appium]   Setting 'automationName=UiAutomator2' by default and using the 
+2020-02-23 19:06:42:505 [Appium]   UiAutomator2 Driver
+2020-02-23 19:06:42:505 [Appium] 
+2020-02-23 19:06:42:506 [Appium]   The next major version of Appium (2.x) will **require** the 
+2020-02-23 19:06:42:506 [Appium]   'automationName' capability to be set for all sessions on all 
+2020-02-23 19:06:42:506 [Appium]   platforms
+2020-02-23 19:06:42:507 [Appium] 
+2020-02-23 19:06:42:508 [Appium]   In previous versions (Appium <= 1.13.x), the default was 
+2020-02-23 19:06:42:508 [Appium]   'automationName=UiAutomator1'
+2020-02-23 19:06:42:509 [Appium] 
+2020-02-23 19:06:42:509 [Appium]   If you wish to use that automation instead of UiAutomator2, please 
+2020-02-23 19:06:42:509 [Appium]   add 'automationName=UiAutomator1' to your desired capabilities
+2020-02-23 19:06:42:510 [Appium] 
+2020-02-23 19:06:42:510 [Appium]   For more information about drivers, please visit 
+2020-02-23 19:06:42:511 [Appium]   http://appium.io/docs/en/about-appium/intro/ and explore the 
+2020-02-23 19:06:42:511 [Appium]   'Drivers' menu
+2020-02-23 19:06:42:512 [Appium] 
+2020-02-23 19:06:42:512 [Appium] ======================================================================
+2020-02-23 19:06:42:513 [Appium] 
+2020-02-23 19:06:42:727 [Appium] Appium v1.16.0 creating new AndroidUiautomator2Driver (v1.40.0) session
+2020-02-23 19:06:42:731 [BaseDriver] W3C capabilities and MJSONWP desired capabilities were provided
+2020-02-23 19:06:42:732 [BaseDriver] Creating session with W3C capabilities: {
+2020-02-23 19:06:42:732 [BaseDriver]   "alwaysMatch": {
+2020-02-23 19:06:42:733 [BaseDriver]     "platformName": "android",
+2020-02-23 19:06:42:733 [BaseDriver]     "appium:appActivity": "com.tencent.mm.ui.LauncherUI",
+2020-02-23 19:06:42:734 [BaseDriver]     "appium:appPackage": "com.tencent.mm",
+2020-02-23 19:06:42:734 [BaseDriver]     "appium:deviceName": "127.0.0.1:62001",
+2020-02-23 19:06:42:735 [BaseDriver]     "appium:noReset": true,
+2020-02-23 19:06:42:735 [BaseDriver]     "appium:noSign": true,
+2020-02-23 19:06:42:736 [BaseDriver]     "appium:platformVersion": "5.1.1",
+2020-02-23 19:06:42:736 [BaseDriver]     "appium:resetKeyboard": true,
+2020-02-23 19:06:42:737 [BaseDriver]     "appium:udid": "127.0.0.1:62001",
+2020-02-23 19:06:42:737 [BaseDriver]     "appium:unicodeKeyboard": true
+2020-02-23 19:06:42:738 [BaseDriver]   },
+2020-02-23 19:06:42:738 [BaseDriver]   "firstMatch": [
+2020-02-23 19:06:42:739 [BaseDriver]     {}
+2020-02-23 19:06:42:739 [BaseDriver]   ]
+2020-02-23 19:06:42:739 [BaseDriver] }
+2020-02-23 19:06:42:748 [BaseDriver] Session created with session id: e89beb62-4fd6-420e-965e-5023b1828ae1
+2020-02-23 19:06:42:750 [UiAutomator2] Starting 'com.tencent.mm' directly on the device
+2020-02-23 19:06:42:756 [ADB] Found 1 'build-tools' folders under 'D:\androidSDK\android-sdk-windows' (newest first):
+2020-02-23 19:06:42:757 [ADB]     D:/androidSDK/android-sdk-windows/build-tools/29.0.2
+2020-02-23 19:06:42:766 [ADB] Using 'adb.exe' from 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe'
+2020-02-23 19:06:42:767 [AndroidDriver] Retrieving device list
+2020-02-23 19:06:42:768 [ADB] Trying to find a connected android device
+2020-02-23 19:06:42:768 [ADB] Getting connected devices...
+2020-02-23 19:06:42:801 [ADB] Connected devices: [{"udid":"127.0.0.1:62001","state":"device"}]
+2020-02-23 19:06:42:802 [AndroidDriver] Using device: 127.0.0.1:62001
+2020-02-23 19:06:42:804 [ADB] Using 'adb.exe' from 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe'
+2020-02-23 19:06:42:805 [ADB] Setting device id to 127.0.0.1:62001
+2020-02-23 19:06:42:806 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell getprop ro.build.version.sdk'
+2020-02-23 19:06:42:834 [ADB] Current device property 'ro.build.version.sdk': 22
+2020-02-23 19:06:42:835 [ADB] Device API level: 22
+2020-02-23 19:06:42:835 [AndroidDriver] No app sent in, not parsing package/activity
+2020-02-23 19:06:42:836 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 wait-for-device'
+2020-02-23 19:06:42:860 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell echo ping'
+2020-02-23 19:06:42:887 [AndroidDriver] Pushing settings apk to device...
+2020-02-23 19:06:42:888 [ADB] Getting install status for io.appium.settings
+2020-02-23 19:06:42:889 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+2020-02-23 19:06:42:919 [ADB] 'io.appium.settings' is installed
+2020-02-23 19:06:42:919 [ADB] Getting package info for 'io.appium.settings'
+2020-02-23 19:06:42:920 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.settings'
+2020-02-23 19:06:42:961 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.15.0' >= '2.15.0')
+2020-02-23 19:06:42:962 [ADB] There is no need to install/upgrade 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\io.appium.settings\apks\settings_apk-debug.apk'
+2020-02-23 19:06:42:963 [ADB] Getting IDs of all 'io.appium.settings' processes
+2020-02-23 19:06:42:964 [ADB] Using ps-based PID detection
+2020-02-23 19:06:42:965 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ps'
+2020-02-23 19:06:42:995 [AndroidDriver] io.appium.settings is already running. There is no need to reset its permissions.
+2020-02-23 19:06:42:996 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings put secure mock_location 1'
+2020-02-23 19:06:43:589 [Logcat] Starting logcat capture
+2020-02-23 19:06:43:626 [AndroidDriver] Enabling Unicode keyboard support
+2020-02-23 19:06:43:627 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell settings get secure default_input_method'
+2020-02-23 19:06:44:258 [AndroidDriver] Unsetting previous IME io.appium.settings/.UnicodeIME
+2020-02-23 19:06:44:259 [AndroidDriver] Setting IME to 'io.appium.settings/.UnicodeIME'
+2020-02-23 19:06:44:259 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ime enable io.appium.settings/.UnicodeIME'
+2020-02-23 19:06:44:857 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ime set io.appium.settings/.UnicodeIME'
+2020-02-23 19:06:45:866 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2020-02-23 19:06:45:867 [ADB] Forwarding system: 8200 to device: 6790
+2020-02-23 19:06:45:868 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward tcp\:8200 tcp\:6790'
+2020-02-23 19:06:45:900 [ADB] Getting install status for io.appium.uiautomator2.server
+2020-02-23 19:06:45:902 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.uiautomator2.server'
+2020-02-23 19:06:45:934 [ADB] 'io.appium.uiautomator2.server' is installed
+2020-02-23 19:06:45:935 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2020-02-23 19:06:45:936 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.uiautomator2.server'
+2020-02-23 19:06:45:969 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('4.5.2' >= '4.5.2')
+2020-02-23 19:06:45:970 [UiAutomator2] io.appium.uiautomator2.server installation state: sameVersionInstalled
+2020-02-23 19:06:45:971 [ADB] Checking app cert for C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk
+2020-02-23 19:06:45:972 [ADB] Using 'apksigner.bat' from 'D:\androidSDK\android-sdk-windows\build-tools\29.0.2\apksigner.bat'
+2020-02-23 19:06:45:973 [ADB] Starting 'D:\androidSDK\android-sdk-windows\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-v4.5.2.apk"]'
+2020-02-23 19:06:46:666 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-02-23 19:06:46:667 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-02-23 19:06:46:667 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-02-23 19:06:46:668 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-02-23 19:06:46:668 [ADB] 
+2020-02-23 19:06:46:669 [ADB] 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk' is already signed.
+2020-02-23 19:06:46:669 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2020-02-23 19:06:46:670 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys package io.appium.uiautomator2.server.test'
+2020-02-23 19:06:46:703 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2020-02-23 19:06:46:703 [ADB] Checking app cert for C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk
+2020-02-23 19:06:46:704 [ADB] Starting 'D:\androidSDK\android-sdk-windows\build-tools\29.0.2\apksigner.bat' with args '["verify","--print-certs","C:\\Users\\admin\\AppData\\Roaming\\npm\\node_modules\\appium\\node_modules\\appium-uiautomator2-server\\apks\\appium-uiautomator2-server-debug-androidTest.apk"]'
+2020-02-23 19:06:47:255 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2020-02-23 19:06:47:256 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2020-02-23 19:06:47:256 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2020-02-23 19:06:47:257 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2020-02-23 19:06:47:257 [ADB] 
+2020-02-23 19:06:47:258 [ADB] 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2020-02-23 19:06:47:258 [UiAutomator2] Server packages are not going to be (re)installed
+2020-02-23 19:06:47:262 [UiAutomator2] Waiting up to 30000ms for services to be available
+2020-02-23 19:06:47:263 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell pm list instrumentation'
+2020-02-23 19:06:47:655 [UiAutomator2] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2020-02-23 19:06:47:656 [UiAutomator2] No app capability. Assuming it is already on the device
+2020-02-23 19:06:47:657 [UiAutomator2] Performing shallow cleanup of automation leftovers
+2020-02-23 19:06:47:669 [UiAutomator2] No obsolete sessions have been detected (Error: socket hang up)
+2020-02-23 19:06:47:670 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop io.appium.uiautomator2.server.test'
+2020-02-23 19:06:48:277 [UiAutomator2] Starting UIAutomator2 server 4.5.2
+2020-02-23 19:06:48:280 [UiAutomator2] Using UIAutomator2 server from 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.5.2.apk' and test from 'C:\Users\admin\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+2020-02-23 19:06:48:282 [UiAutomator2] Waiting up to 30000ms for UiAutomator2 to be online...
+2020-02-23 19:06:48:284 [ADB] Creating ADB subprocess with args: ["-P",5037,"-s","127.0.0.1:62001","shell","am","instrument","-w","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2020-02-23 19:06:48:951 [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2020-02-23 19:06:49:298 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-02-23 19:06:49:303 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-02-23 19:06:49:315 [WD Proxy] Got an unexpected response with status undefined: {"code":"ECONNRESET"}
+2020-02-23 19:06:50:319 [WD Proxy] Matched '/status' to command name 'getStatus'
+2020-02-23 19:06:50:320 [WD Proxy] Proxying [GET /status] to [GET http://127.0.0.1:8200/wd/hub/status] with no body
+2020-02-23 19:06:50:379 [WD Proxy] Got response with status 200: {"sessionId":"None","value":{"ready":true,"message":"UiAutomator2 Server is ready to accept commands"}}
+2020-02-23 19:06:50:380 [UiAutomator2] The initialization of the instrumentation process took 2099ms
+2020-02-23 19:06:50:380 [WD Proxy] Matched '/session' to command name 'createSession'
+2020-02-23 19:06:50:381 [WD Proxy] Proxying [POST /session] to [POST http://127.0.0.1:8200/wd/hub/session] with body: {"capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","deviceName":"127.0.0.1:62001","noReset":true,"noSign":true,"platformVersion":"5.1.1","resetKeyboard":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true},"platformName":"android","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","deviceName":"127.0.0.1:62001","noReset":true,"noSign":true,"platformVersion":"5.1.1","resetKeyboard":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true,"deviceUDID":"127.0.0.1:62001"}],"alwaysMatch":{}}}
+2020-02-23 19:06:50:392 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","capabilities":{"firstMatch":[{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","deviceName":"127.0.0.1:62001","noReset":true,"noSign":true,"platformVersion":"5.1.1","resetKeyboard":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true},"platformName":"android","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","deviceName":"127.0.0.1:62001","noReset":true,"noSign":true,"platformVersion":"5.1.1","resetKeyboard":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true,"deviceUDID":"127.0.0.1:62001"}],"alwaysMatch":{}}}}
+2020-02-23 19:06:50:392 [WD Proxy] Determined the downstream protocol as 'W3C'
+2020-02-23 19:06:50:402 [WD Proxy] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/appium/device/info] with no body
+2020-02-23 19:06:50:414 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"androidId":"408d5c957c7e8838","manufacturer":"OPPO","model":"OPPO R11","brand":"OPPO","apiVersion":"22","platformVersion":"5.1.1","carrierName":"CHINA MOBILE","realDisplaySize":"900x1600","displayDensity":320,"networks":[{"type":1,"typeName":"WIFI","subtype":0,"subtypeName":"","isConnected":true,"detailedState":"CONNECTED","state":"CONNECTED","extraInfo":"\"WiredSSID\"","isAvailable":true,"isFailover":false,"isRoaming":false,"capabilities":{"transportTypes":"TRANSPORT_WIFI","networkCapabilities":"NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_INTERNET,NET_CAPABILITY_TRUSTED","linkUpstreamBandwidthKbps":1048576,"linkDownBandwidthKbps":1048576,"signalStrength":null,"networkSpecifier":null,"SSID":null}}],"locale":"zh_CN","timeZone":"Asia\/Shanghai","bluetooth":{"state":"OFF"}}}
+2020-02-23 19:06:50:415 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell dumpsys window'
+2020-02-23 19:06:50:450 [AndroidDriver] Screen already unlocked, doing nothing
+2020-02-23 19:06:50:450 [UiAutomator2] Starting 'com.tencent.mm/com.tencent.mm.ui.LauncherUI and waiting for 'com.tencent.mm/com.tencent.mm.ui.LauncherUI'
+2020-02-23 19:06:50:452 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am start -W -n com.tencent.mm/com.tencent.mm.ui.LauncherUI -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2020-02-23 19:06:52:087 [WD Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/appium/device/pixel_ratio] with body: {}
+2020-02-23 19:06:52:092 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":2}
+2020-02-23 19:06:52:096 [WD Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2020-02-23 19:06:52:097 [WD Proxy] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/appium/device/system_bars] with body: {}
+2020-02-23 19:06:52:102 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"statusBar":50}}
+2020-02-23 19:06:52:103 [WD Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2020-02-23 19:06:52:104 [WD Proxy] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/window/current/size] with body: {}
+2020-02-23 19:06:52:112 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"height":1600,"width":900}}
+2020-02-23 19:06:52:113 [Appium] New AndroidUiautomator2Driver session created successfully, session e89beb62-4fd6-420e-965e-5023b1828ae1 added to master session list
+2020-02-23 19:06:52:114 [BaseDriver] Event 'newSessionStarted' logged at 1582456012114 (19:06:52 GMT+0800 (GMT+08:00))
+2020-02-23 19:06:52:115 [W3C (e89beb62)] Cached the protocol value 'W3C' for the new session e89beb62-4fd6-420e-965e-5023b1828ae1
+2020-02-23 19:06:52:117 [W3C (e89beb62)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","deviceName":"127.0.0.1:62001","noReset":true,"noSign":true,"platformVersion":"5.1.1","resetKeyboard":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true},"platformName":"android","appActivity":"com.tencent.mm.ui.LauncherUI","appPackage":"com.tencent.mm","deviceName":"127.0.0.1:62001","noReset":true,"noSign":true,"platformVersion":"5.1.1","resetKeyboard":true,"udid":"127.0.0.1:62001","unicodeKeyboard":true,"deviceUDID":"127.0.0.1:62001","deviceApiLevel":22,"deviceScreenSize":"900x1600","deviceScreenDensity":320,"deviceModel":"OPPO R11","deviceManufacturer":"OPPO","pixelRatio":2,"statBarHeight":50,"viewportRect":{"left":0,"top":50,"width":900,"height":1550}}}
+2020-02-23 19:06:52:123 [HTTP] <-- POST /wd/hub/session 200 9628 ms - 1050
+2020-02-23 19:06:52:127 [HTTP] 
+2020-02-23 19:06:52:173 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/timeouts
+2020-02-23 19:06:52:173 [HTTP] {"implicit":10000000}
+2020-02-23 19:06:52:176 [W3C (e89beb62)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000000,"e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:06:52:177 [BaseDriver] W3C timeout argument: {"implicit":10000000}}
+2020-02-23 19:06:52:178 [BaseDriver] Set implicit wait to 10000000ms
+2020-02-23 19:06:52:180 [W3C (e89beb62)] Responding to client with driver.timeouts() result: null
+2020-02-23 19:06:52:201 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/timeouts 200 9 ms - 14
+2020-02-23 19:06:52:203 [HTTP] 
+2020-02-23 19:06:52:206 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/timeouts
+2020-02-23 19:06:52:207 [HTTP] {"implicit":30000}
+2020-02-23 19:06:52:208 [W3C (e89beb62)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,30000,"e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:06:52:209 [BaseDriver] W3C timeout argument: {"implicit":30000}}
+2020-02-23 19:06:52:209 [BaseDriver] Set implicit wait to 30000ms
+2020-02-23 19:06:52:210 [W3C (e89beb62)] Responding to client with driver.timeouts() result: null
+2020-02-23 19:06:52:213 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/timeouts 200 7 ms - 14
+2020-02-23 19:06:52:216 [HTTP] 
+2020-02-23 19:07:07:241 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/touch/perform
+2020-02-23 19:07:07:243 [HTTP] {"actions":[{"action":"press","options":{"x":400,"y":700}},{"action":"moveTo","options":{"x":400,"y":1400}},{"action":"release","options":{}}]}
+2020-02-23 19:07:07:252 [W3C (e89beb62)] Calling AppiumDriver.performTouch() with args: [[{"action":"press","options":{"x":400,"y":700}},{"action":"moveTo","options":{"x":400,"y":1400}},{"action":"release","options":{}}],"e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:07:07:256 [WD Proxy] Matched '/touch/down' to command name 'touchDown'
+2020-02-23 19:07:07:257 [WD Proxy] Proxying [POST /touch/down] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/touch/down] with body: {"params":{"x":400,"y":700}}
+2020-02-23 19:07:08:026 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":null}
+2020-02-23 19:07:08:029 [WD Proxy] Matched '/touch/move' to command name 'touchMove'
+2020-02-23 19:07:08:031 [WD Proxy] Proxying [POST /touch/move] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/touch/move] with body: {"params":{"x":400,"y":1400}}
+2020-02-23 19:07:08:818 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":null}
+2020-02-23 19:07:08:821 [WD Proxy] Matched '/touch/up' to command name 'touchUp'
+2020-02-23 19:07:08:822 [WD Proxy] Proxying [POST /touch/up] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/touch/up] with body: {"params":{"x":400,"y":1400}}
+2020-02-23 19:07:09:582 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":null}
+2020-02-23 19:07:09:583 [W3C (e89beb62)] Responding to client with driver.performTouch() result: null
+2020-02-23 19:07:09:586 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/touch/perform 200 2347 ms - 14
+2020-02-23 19:07:09:587 [HTTP] 
+2020-02-23 19:07:12:598 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element
+2020-02-23 19:07:12:600 [HTTP] {"using":"xpath","value":"//*[@text='智行火车票']"}
+2020-02-23 19:07:12:602 [W3C (e89beb62)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='智行火车票']","e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:07:12:604 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-02-23 19:07:12:605 [BaseDriver] Waiting up to 30000 ms for condition
+2020-02-23 19:07:12:607 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-02-23 19:07:12:608 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/element] with body: {"strategy":"xpath","selector":"//*[@text='智行火车票']","context":"","multiple":false}
+2020-02-23 19:07:12:670 [WD Proxy] Got an unexpected response with status 404: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.findElement(FindElement.java:102)\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:72)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:38)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:252)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:242)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:51)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerCon...
+2020-02-23 19:07:12:671 [W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2020-02-23 19:07:12:671 [BaseDriver] Waited for 66 ms so far
+2020-02-23 19:07:13:172 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-02-23 19:07:13:173 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/element] with body: {"strategy":"xpath","selector":"//*[@text='智行火车票']","context":"","multiple":false}
+2020-02-23 19:07:13:844 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"ELEMENT":"8dca8138-5a84-42ea-91ad-7d83a526a3fa","element-6066-11e4-a52e-4f735466cecf":"8dca8138-5a84-42ea-91ad-7d83a526a3fa"}}
+2020-02-23 19:07:13:845 [W3C (e89beb62)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8dca8138-5a84-42ea-91ad-7d83a526a3fa","ELEMENT":"8dca8138-5a84-42ea-91ad-7d83a526a3fa"}
+2020-02-23 19:07:13:846 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element 200 1248 ms - 137
+2020-02-23 19:07:13:847 [HTTP] 
+2020-02-23 19:07:13:858 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element/8dca8138-5a84-42ea-91ad-7d83a526a3fa/click
+2020-02-23 19:07:13:858 [HTTP] {"id":"8dca8138-5a84-42ea-91ad-7d83a526a3fa"}
+2020-02-23 19:07:13:859 [W3C (e89beb62)] Calling AppiumDriver.click() with args: ["8dca8138-5a84-42ea-91ad-7d83a526a3fa","e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:07:13:860 [WD Proxy] Matched '/element/8dca8138-5a84-42ea-91ad-7d83a526a3fa/click' to command name 'click'
+2020-02-23 19:07:13:861 [WD Proxy] Proxying [POST /element/8dca8138-5a84-42ea-91ad-7d83a526a3fa/click] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/element/8dca8138-5a84-42ea-91ad-7d83a526a3fa/click] with body: {"element":"8dca8138-5a84-42ea-91ad-7d83a526a3fa"}
+2020-02-23 19:07:14:378 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":null}
+2020-02-23 19:07:14:380 [W3C (e89beb62)] Responding to client with driver.click() result: null
+2020-02-23 19:07:14:385 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element/8dca8138-5a84-42ea-91ad-7d83a526a3fa/click 200 523 ms - 14
+2020-02-23 19:07:14:386 [HTTP] 
+2020-02-23 19:07:24:390 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element
+2020-02-23 19:07:24:391 [HTTP] {"using":"xpath","value":"//*[@text='高铁动车']"}
+2020-02-23 19:07:24:393 [W3C (e89beb62)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='高铁动车']","e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:07:24:394 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-02-23 19:07:24:395 [BaseDriver] Waiting up to 30000 ms for condition
+2020-02-23 19:07:24:396 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-02-23 19:07:24:398 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/element] with body: {"strategy":"xpath","selector":"//*[@text='高铁动车']","context":"","multiple":false}
+2020-02-23 19:07:24:868 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"ELEMENT":"ddded93f-9970-4e06-819a-ccc845d7d9a3","element-6066-11e4-a52e-4f735466cecf":"ddded93f-9970-4e06-819a-ccc845d7d9a3"}}
+2020-02-23 19:07:24:869 [W3C (e89beb62)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"ddded93f-9970-4e06-819a-ccc845d7d9a3","ELEMENT":"ddded93f-9970-4e06-819a-ccc845d7d9a3"}
+2020-02-23 19:07:24:872 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element 200 484 ms - 137
+2020-02-23 19:07:24:873 [HTTP] 
+2020-02-23 19:07:24:875 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element/ddded93f-9970-4e06-819a-ccc845d7d9a3/click
+2020-02-23 19:07:24:875 [HTTP] {"id":"ddded93f-9970-4e06-819a-ccc845d7d9a3"}
+2020-02-23 19:07:24:876 [W3C (e89beb62)] Calling AppiumDriver.click() with args: ["ddded93f-9970-4e06-819a-ccc845d7d9a3","e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:07:24:878 [WD Proxy] Matched '/element/ddded93f-9970-4e06-819a-ccc845d7d9a3/click' to command name 'click'
+2020-02-23 19:07:24:878 [WD Proxy] Proxying [POST /element/ddded93f-9970-4e06-819a-ccc845d7d9a3/click] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/element/ddded93f-9970-4e06-819a-ccc845d7d9a3/click] with body: {"element":"ddded93f-9970-4e06-819a-ccc845d7d9a3"}
+2020-02-23 19:07:25:661 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":null}
+2020-02-23 19:07:25:665 [W3C (e89beb62)] Responding to client with driver.click() result: null
+2020-02-23 19:07:25:670 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element/ddded93f-9970-4e06-819a-ccc845d7d9a3/click 200 792 ms - 14
+2020-02-23 19:07:25:671 [HTTP] 
+2020-02-23 19:07:25:676 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element
+2020-02-23 19:07:25:679 [HTTP] {"using":"xpath","value":"//*[@text='火车票查询']"}
+2020-02-23 19:07:25:682 [W3C (e89beb62)] Calling AppiumDriver.findElement() with args: ["xpath","//*[@text='火车票查询']","e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:07:25:683 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2020-02-23 19:07:25:684 [BaseDriver] Waiting up to 30000 ms for condition
+2020-02-23 19:07:25:685 [WD Proxy] Matched '/element' to command name 'findElement'
+2020-02-23 19:07:25:688 [WD Proxy] Proxying [POST /element] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/element] with body: {"strategy":"xpath","selector":"//*[@text='火车票查询']","context":"","multiple":false}
+2020-02-23 19:07:26:324 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":{"ELEMENT":"77f381a9-9c0d-44fc-a92d-1b3be1a72a85","element-6066-11e4-a52e-4f735466cecf":"77f381a9-9c0d-44fc-a92d-1b3be1a72a85"}}
+2020-02-23 19:07:26:325 [W3C (e89beb62)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"77f381a9-9c0d-44fc-a92d-1b3be1a72a85","ELEMENT":"77f381a9-9c0d-44fc-a92d-1b3be1a72a85"}
+2020-02-23 19:07:26:334 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element 200 652 ms - 137
+2020-02-23 19:07:26:335 [HTTP] 
+2020-02-23 19:07:26:337 [HTTP] --> POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element/77f381a9-9c0d-44fc-a92d-1b3be1a72a85/click
+2020-02-23 19:07:26:338 [HTTP] {"id":"77f381a9-9c0d-44fc-a92d-1b3be1a72a85"}
+2020-02-23 19:07:26:339 [W3C (e89beb62)] Calling AppiumDriver.click() with args: ["77f381a9-9c0d-44fc-a92d-1b3be1a72a85","e89beb62-4fd6-420e-965e-5023b1828ae1"]
+2020-02-23 19:07:26:342 [WD Proxy] Matched '/element/77f381a9-9c0d-44fc-a92d-1b3be1a72a85/click' to command name 'click'
+2020-02-23 19:07:26:343 [WD Proxy] Proxying [POST /element/77f381a9-9c0d-44fc-a92d-1b3be1a72a85/click] to [POST http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403/element/77f381a9-9c0d-44fc-a92d-1b3be1a72a85/click] with body: {"element":"77f381a9-9c0d-44fc-a92d-1b3be1a72a85"}
+2020-02-23 19:07:26:370 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":null}
+2020-02-23 19:07:26:371 [W3C (e89beb62)] Responding to client with driver.click() result: null
+2020-02-23 19:07:26:376 [HTTP] <-- POST /wd/hub/session/e89beb62-4fd6-420e-965e-5023b1828ae1/element/77f381a9-9c0d-44fc-a92d-1b3be1a72a85/click 200 35 ms - 14
+2020-02-23 19:07:26:378 [HTTP] 
+2020-02-23 19:08:26:372 [BaseDriver] Shutting down because we waited 60 seconds for a command
+2020-02-23 19:08:26:373 [Appium] Closing session, cause was 'New Command Timeout of 60 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+2020-02-23 19:08:26:374 [Appium] Removing session 'e89beb62-4fd6-420e-965e-5023b1828ae1' from our master session list
+2020-02-23 19:08:26:375 [UiAutomator2] Deleting UiAutomator2 session
+2020-02-23 19:08:26:377 [UiAutomator2] Deleting UiAutomator2 server session
+2020-02-23 19:08:26:377 [WD Proxy] Matched '/' to command name 'deleteSession'
+2020-02-23 19:08:26:378 [WD Proxy] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/wd/hub/session/9cca5544-345b-4bff-8268-8e0d48f75403] with no body
+2020-02-23 19:08:26:386 [WD Proxy] Got response with status 200: {"sessionId":"9cca5544-345b-4bff-8268-8e0d48f75403","value":null}
+2020-02-23 19:08:26:387 [UiAutomator2] Resetting IME to 'io.appium.settings/.UnicodeIME'
+2020-02-23 19:08:26:388 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell ime set io.appium.settings/.UnicodeIME'
+2020-02-23 19:08:26:997 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 shell am force-stop com.tencent.mm'
+2020-02-23 19:08:27:061 [Instrumentation] .
+2020-02-23 19:08:27:299 [Instrumentation] Time: 98.113
+2020-02-23 19:08:27:300 [Instrumentation] 
+2020-02-23 19:08:27:301 [Instrumentation] OK (1 test)
+2020-02-23 19:08:27:513 [Instrumentation] The process has exited with code 0
+2020-02-23 19:08:28:111 [Logcat] Stopping logcat capture
+2020-02-23 19:08:28:115 [ADB] Removing forwarded port socket connection: 8200 
+2020-02-23 19:08:28:116 [ADB] Running 'D:\androidSDK\android-sdk-windows\platform-tools\adb.exe -P 5037 -s 127.0.0.1\:62001 forward --remove tcp\:8200'

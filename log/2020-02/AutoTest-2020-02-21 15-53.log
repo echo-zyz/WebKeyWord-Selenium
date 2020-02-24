@@ -1,0 +1,54 @@
+15:24:12  [INFO ] : 通过cmd启动appiumserver服务
+15:24:12  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-24-12AppiumLog.txt --local-timezone --log-timestamp
+15:24:32  [INFO ] : 启动手机系统浏览器（chrome）
+15:25:01  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:25:01  [INFO ] : 现在的context是：CHROMIUM
+15:25:40  [INFO ] : 现在的context是：NATIVE_APP
+15:26:30  [INFO ] : 通过cmd启动appiumserver服务
+15:26:30  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-26-30AppiumLog.txt --local-timezone --log-timestamp
+15:26:50  [INFO ] : 启动手机系统浏览器（chrome）
+15:27:34  [INFO ] : 通过cmd启动appiumserver服务
+15:27:34  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-27-34AppiumLog.txt --local-timezone --log-timestamp
+15:27:54  [INFO ] : 启动手机系统浏览器（chrome）
+15:28:20  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:28:31  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+15:29:14  [INFO ] : 通过cmd启动appiumserver服务
+15:29:14  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-29-14AppiumLog.txt --local-timezone --log-timestamp
+15:29:34  [INFO ] : 启动手机系统浏览器（chrome）
+15:29:58  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:30:09  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+15:30:14  [INFO ] : //*[@resource-id='fm-login-id']元素进行点击
+15:30:16  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614
+15:31:03  [INFO ] : 通过cmd启动appiumserver服务
+15:31:03  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-31-03AppiumLog.txt --local-timezone --log-timestamp
+15:31:23  [INFO ] : 启动手机系统浏览器（chrome）
+15:31:45  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:31:56  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+15:32:02  [INFO ] : //*[@resource-id='fm-login-id']元素进行点击
+15:32:04  [INFO ] : //*[@resource-id='fm-login-id']元素中输入1
+15:32:05  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614
+15:36:56  [INFO ] : 通过cmd启动appiumserver服务
+15:36:56  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-36-56AppiumLog.txt --local-timezone --log-timestamp
+15:37:16  [INFO ] : 启动手机系统浏览器（chrome）
+15:37:39  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:37:50  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+15:37:56  [INFO ] : //*[@resource-id='fm-login-id']元素进行点击
+15:37:57  [INFO ] : //*[@resource-id='fm-login-id']元素中输入1
+15:37:58  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614
+15:38:37  [INFO ] : 通过cmd启动appiumserver服务
+15:38:37  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-38-37AppiumLog.txt --local-timezone --log-timestamp
+15:38:57  [INFO ] : 启动手机系统浏览器（chrome）
+15:39:20  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:39:31  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+15:39:37  [INFO ] : //*[@resource-id='fm-login-id']元素进行点击
+15:39:38  [INFO ] : //*[@resource-id='fm-login-id']元素中输入1
+15:39:40  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614
+15:43:08  [INFO ] : 通过cmd启动appiumserver服务
+15:43:08  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+15-43-08AppiumLog.txt --local-timezone --log-timestamp
+15:43:28  [INFO ] : 启动手机系统浏览器（chrome）
+15:43:51  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:44:03  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+15:44:08  [INFO ] : //*[@resource-id='fm-login-id']元素进行点击
+15:44:10  [INFO ] : //*[@resource-id='fm-login-id']元素中输入1
+15:44:10  [INFO ] : 执行cmd命令:adb shell input text 12345
+15:44:12  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614

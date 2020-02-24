@@ -1,0 +1,539 @@
+14:22:04  [INFO ] : 通过cmd启动appiumserver服务
+14:22:04  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-22-04AppiumLog.txt --local-timezone --log-timestamp
+14:22:15  [INFO ] : 启动待测试APP
+14:22:37  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+14:22:39  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+14:22:39  [INFO ] : //*[@content-desc='登 录']元素进行点击
+14:22:39  [INFO ] : 启动手机系统浏览器（chrome）
+14:23:03  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:23:04  [ERROR] : io.appium.java_client.NoSuchContextException: No such context found.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: a1d06fd7-a04a-4c04-b53a-f56f18d217c6
+io.appium.java_client.NoSuchContextException: No such context found.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: a1d06fd7-a04a-4c04-b53a-f56f18d217c6
+	at com.kc.appKeyWord.AppKeyWord.switchcontext(AppKeyWord.java:508) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:29) [classes/:?]
+Caused by: org.openqa.selenium.WebDriverException: No such context found.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: a1d06fd7-a04a-4c04-b53a-f56f18d217c6
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:488) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:228) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppKeyWord.switchcontext(AppKeyWord.java:504) ~[classes/:?]
+	... 1 more
+14:23:04  [ERROR] : 切换context失败
+14:23:34  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@text='社交帐号登录']"}
+  (Session info: chrome=74.0.3729.136)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: a1d06fd7-a04a-4c04-b53a-f56f18d217c6
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@text='社交帐号登录']"}
+  (Session info: chrome=74.0.3729.136)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: a1d06fd7-a04a-4c04-b53a-f56f18d217c6
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:30) [classes/:?]
+14:24:29  [INFO ] : 通过cmd启动appiumserver服务
+14:24:29  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-24-29AppiumLog.txt --local-timezone --log-timestamp
+14:24:39  [INFO ] : 启动待测试APP
+14:24:53  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+14:24:54  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+14:24:55  [INFO ] : //*[@content-desc='登 录']元素进行点击
+14:24:55  [INFO ] : 启动手机系统浏览器（chrome）
+14:25:14  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:25:14  [ERROR] : io.appium.java_client.NoSuchContextException: No such context found.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 02851aa7-b2fe-4a13-a460-6101aa32d32c
+io.appium.java_client.NoSuchContextException: No such context found.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 02851aa7-b2fe-4a13-a460-6101aa32d32c
+	at com.kc.appKeyWord.AppKeyWord.switchcontext(AppKeyWord.java:508) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:29) [classes/:?]
+Caused by: org.openqa.selenium.WebDriverException: No such context found.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 02851aa7-b2fe-4a13-a460-6101aa32d32c
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:488) ~[?:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:228) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppKeyWord.switchcontext(AppKeyWord.java:504) ~[classes/:?]
+	... 1 more
+14:25:14  [ERROR] : 切换context失败
+14:25:47  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@text='社交帐号登录']"}
+  (Session info: chrome=74.0.3729.136)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 02851aa7-b2fe-4a13-a460-6101aa32d32c
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@text='社交帐号登录']"}
+  (Session info: chrome=74.0.3729.136)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 02851aa7-b2fe-4a13-a460-6101aa32d32c
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:26:05  [INFO ] : 通过cmd启动appiumserver服务
+14:26:05  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-26-05AppiumLog.txt --local-timezone --log-timestamp
+14:26:15  [INFO ] : 启动待测试APP
+14:26:27  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+14:26:29  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+14:26:29  [INFO ] : //*[@content-desc='登 录']元素进行点击
+14:26:29  [INFO ] : 启动手机系统浏览器（chrome）
+14:26:49  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:26:49  [INFO ] : 现在的context是：NATIVE_APP
+14:26:52  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 869fe178-d2f7-4880-b715-a0d8cfc1867a
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 869fe178-d2f7-4880-b715-a0d8cfc1867a
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:26:52  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-26-52.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-26-52.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:26:52  [ERROR] : 截图失败！
+14:26:55  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 869fe178-d2f7-4880-b715-a0d8cfc1867a
+*** Element info: {Using=xpath, value=//*[@text='QQ 帐号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 869fe178-d2f7-4880-b715-a0d8cfc1867a
+*** Element info: {Using=xpath, value=//*[@text='QQ 帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:33) [classes/:?]
+14:26:56  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-26-55.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-26-55.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:33) [classes/:?]
+14:26:56  [ERROR] : 截图失败！
+14:26:59  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 869fe178-d2f7-4880-b715-a0d8cfc1867a
+*** Element info: {Using=xpath, value=//*[@text='一键登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 869fe178-d2f7-4880-b715-a0d8cfc1867a
+*** Element info: {Using=xpath, value=//*[@text='一键登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:35) [classes/:?]
+14:26:59  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-26-59.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-26-59.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:35) [classes/:?]
+14:26:59  [ERROR] : 截图失败！
+14:27:02  [INFO ] : //*[@text='登录']元素进行点击
+14:28:02  [INFO ] : 通过cmd启动appiumserver服务
+14:28:02  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-28-02AppiumLog.txt --local-timezone --log-timestamp
+14:28:13  [INFO ] : 启动待测试APP
+14:28:13  [INFO ] : 启动失败！
+14:28:13  [ERROR] : org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:111) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:17) [classes/:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:105) ~[classes/:?]
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:?]
+	at okio.Okio$2.read(Okio.java:140) ~[okio-1.14.0.jar:?]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227) ~[okio-1.14.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152) ~[selenium-remote-driver-3.141.59.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105) ~[selenium-remote-driver-3.141.59.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:105) ~[classes/:?]
+	... 1 more
+14:28:13  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:187) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.LoginQQ(AppKeyWord.java:568) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:18) [classes/:?]
+14:28:25  [INFO ] : 通过cmd启动appiumserver服务
+14:28:25  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-28-25AppiumLog.txt --local-timezone --log-timestamp
+14:28:35  [INFO ] : 启动待测试APP
+14:28:52  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+14:28:53  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+14:28:55  [INFO ] : //*[@content-desc='登 录']元素进行点击
+14:28:55  [INFO ] : 启动手机系统浏览器（chrome）
+14:29:13  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:29:13  [INFO ] : 现在的context是：NATIVE_APP
+14:29:23  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 8eabf22c-222f-4ceb-9d0a-0497291611ed
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 8eabf22c-222f-4ceb-9d0a-0497291611ed
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:29:24  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-29-23.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-29-23.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:29:24  [ERROR] : 截图失败！
+14:29:34  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 8eabf22c-222f-4ceb-9d0a-0497291611ed
+*** Element info: {Using=xpath, value=//*[@text='QQ 帐号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 8eabf22c-222f-4ceb-9d0a-0497291611ed
+*** Element info: {Using=xpath, value=//*[@text='QQ 帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:33) [classes/:?]
+14:29:34  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-29-34.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-29-34.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:33) [classes/:?]
+14:29:34  [ERROR] : 截图失败！
+14:29:44  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 8eabf22c-222f-4ceb-9d0a-0497291611ed
+*** Element info: {Using=xpath, value=//*[@text='一键登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 8eabf22c-222f-4ceb-9d0a-0497291611ed
+*** Element info: {Using=xpath, value=//*[@text='一键登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:35) [classes/:?]
+14:29:44  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-29-44.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-29-44.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:35) [classes/:?]
+14:29:44  [ERROR] : 截图失败！
+14:29:54  [INFO ] : //*[@text='登录']元素进行点击
+14:36:59  [INFO ] : 通过cmd启动appiumserver服务
+14:36:59  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-36-59AppiumLog.txt --local-timezone --log-timestamp
+14:37:09  [INFO ] : 启动待测试APP
+14:37:26  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+14:37:27  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+14:37:28  [INFO ] : //*[@content-desc='登 录']元素进行点击
+14:37:28  [INFO ] : 启动手机系统浏览器（chrome）
+14:37:47  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:42:31  [INFO ] : 通过cmd启动appiumserver服务
+14:42:31  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-42-31AppiumLog.txt --local-timezone --log-timestamp
+14:42:41  [INFO ] : 启动待测试APP
+14:43:02  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+14:43:03  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+14:43:04  [INFO ] : //*[@content-desc='登 录']元素进行点击
+14:43:04  [INFO ] : 启动手机系统浏览器（chrome）
+14:43:22  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:44:03  [ERROR] : org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@text='社交帐号登录']"}
+  (Session info: chrome=74.0.3729.136)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 698ee22a-dc35-4823-bd5a-97a592d43372
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@text='社交帐号登录']"}
+  (Session info: chrome=74.0.3729.136)
+  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 698ee22a-dc35-4823-bd5a-97a592d43372
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:44:33  [INFO ] : 通过cmd启动appiumserver服务
+14:44:33  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-44-33AppiumLog.txt --local-timezone --log-timestamp
+14:44:43  [INFO ] : 启动待测试APP
+14:44:55  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+14:44:56  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+14:44:58  [INFO ] : //*[@content-desc='登 录']元素进行点击
+14:44:58  [INFO ] : 启动手机系统浏览器（chrome）
+14:45:23  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:45:23  [INFO ] : 现在的context是：NATIVE_APP
+14:45:33  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 3974c642-2809-4020-95f2-410fc473795b
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 3974c642-2809-4020-95f2-410fc473795b
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:45:33  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-45-33.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-45-33.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:45:33  [ERROR] : 截图失败！
+14:45:59  [INFO ] : 通过cmd启动appiumserver服务
+14:45:59  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-45-59AppiumLog.txt --local-timezone --log-timestamp
+14:46:09  [INFO ] : 启动手机系统浏览器（chrome）
+14:46:33  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:46:33  [INFO ] : 现在的context是：NATIVE_APP
+14:46:43  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: a0a23265-56cd-4081-8d26-929b51f49e2a
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: a0a23265-56cd-4081-8d26-929b51f49e2a
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:47:19  [INFO ] : 通过cmd启动appiumserver服务
+14:47:19  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-47-19AppiumLog.txt --local-timezone --log-timestamp
+14:47:29  [INFO ] : 启动手机系统浏览器（chrome）
+14:47:56  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:47:56  [INFO ] : 现在的context是：NATIVE_APP
+14:48:06  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: e91a4052-38fb-4c35-ad99-dd46234126d0
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: e91a4052-38fb-4c35-ad99-dd46234126d0
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:48:07  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-48-06.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-48-06.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:48:07  [ERROR] : 截图失败！
+14:51:34  [INFO ] : 通过cmd启动appiumserver服务
+14:51:34  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+14-51-34AppiumLog.txt --local-timezone --log-timestamp
+14:51:44  [INFO ] : 启动手机系统浏览器（chrome）
+14:52:03  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+14:52:03  [INFO ] : 现在的context是：NATIVE_APP
+14:52:13  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 133220fc-4ed9-4da1-9fc2-36314446f7d6
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 133220fc-4ed9-4da1-9fc2-36314446f7d6
+*** Element info: {Using=xpath, value=//*[@text='社交帐号登录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:52:13  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+14-52-13.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+14-52-13.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.LoginZHIHUTest.main(LoginZHIHUTest.java:31) [classes/:?]
+14:52:13  [ERROR] : 截图失败！

@@ -1,0 +1,170 @@
+18:30:35  [INFO ] : 通过cmd启动appiumserver服务
+18:30:35  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+18-30-35AppiumLog.txt --local-timezone --log-timestamp
+18:30:45  [INFO ] : 启动待测试APP
+18:31:54  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 582dcc0e-b885-4744-8a12-7e7ddf2341a2
+*** Element info: {Using=xpath, value=//*[@text='智行火车票']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 582dcc0e-b885-4744-8a12-7e7ddf2341a2
+*** Element info: {Using=xpath, value=//*[@text='智行火车票']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:26) [classes/:?]
+18:31:54  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+18-31-54.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+18-31-54.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:26) [classes/:?]
+18:31:54  [ERROR] : 截图失败！
+18:32:28  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 582dcc0e-b885-4744-8a12-7e7ddf2341a2
+*** Element info: {Using=xpath, value=//*[@text='高铁动车']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 582dcc0e-b885-4744-8a12-7e7ddf2341a2
+*** Element info: {Using=xpath, value=//*[@text='高铁动车']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:28) [classes/:?]
+18:32:28  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+18-32-28.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+18-32-28.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:28) [classes/:?]
+18:32:28  [ERROR] : 截图失败！
+18:32:58  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 582dcc0e-b885-4744-8a12-7e7ddf2341a2
+*** Element info: {Using=xpath, value=//*[@text='火车票查询']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, databaseEnabled: false, desired: {appActivity: com.tencent.mm.ui.LauncherUI, appPackage: com.tencent.mm, deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 582dcc0e-b885-4744-8a12-7e7ddf2341a2
+*** Element info: {Using=xpath, value=//*[@text='火车票查询']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:29) [classes/:?]
+18:32:59  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200223+18-32-58.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200223+18-32-58.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:434) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:201) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:29) [classes/:?]
+18:32:59  [ERROR] : 截图失败！
+18:34:07  [INFO ] : 通过cmd启动appiumserver服务
+18:34:07  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+18-34-07AppiumLog.txt --local-timezone --log-timestamp
+18:34:17  [INFO ] : 启动待测试APP
+18:34:20  [INFO ] : 启动失败！
+18:34:20  [ERROR] : org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+org.openqa.selenium.SessionNotCreatedException: Unable to create a new remote session. Original error: Connection reset
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: driver.version: unknown
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:111) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:13) [classes/:?]
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:105) ~[classes/:?]
+	... 1 more
+Caused by: java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:210) ~[?:?]
+	at java.net.SocketInputStream.read(SocketInputStream.java:141) ~[?:?]
+	at okio.Okio$2.read(Okio.java:140) ~[okio-1.14.0.jar:?]
+	at okio.AsyncTimeout$2.read(AsyncTimeout.java:237) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.indexOf(RealBufferedSource.java:355) ~[okio-1.14.0.jar:?]
+	at okio.RealBufferedSource.readUtf8LineStrict(RealBufferedSource.java:227) ~[okio-1.14.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readHeaderLine(Http1Codec.java:215) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http1.Http1Codec.readResponseHeaders(Http1Codec.java:189) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.CallServerInterceptor.intercept(CallServerInterceptor.java:88) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient$Factory$1.lambda$createClient$1(OkHttpClient.java:152) ~[selenium-remote-driver-3.141.59.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:45) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200) ~[okhttp-3.11.0.jar:?]
+	at okhttp3.RealCall.execute(RealCall.java:77) ~[okhttp-3.11.0.jar:?]
+	at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103) ~[selenium-remote-driver-3.141.59.jar:?]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105) ~[selenium-remote-driver-3.141.59.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor$1.createSession(AppiumCommandExecutor.java:186) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.createSession(AppiumCommandExecutor.java:217) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:41) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.AppiumDriver.startSession(AppiumDriver.java:336) ~[java-client-7.3.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131) ~[selenium-remote-driver-3.141.59.jar:?]
+	at io.appium.java_client.DefaultGenericMobileDriver.<init>(DefaultGenericMobileDriver.java:37) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:88) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.AppiumDriver.<init>(AppiumDriver.java:98) ~[java-client-7.3.0.jar:?]
+	at io.appium.java_client.android.AndroidDriver.<init>(AndroidDriver.java:94) ~[java-client-7.3.0.jar:?]
+	at com.kc.appKeyWord.AppDriver.<init>(AppDriver.java:39) ~[classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.runAPP(AppKeyWord.java:105) ~[classes/:?]
+	... 1 more
+18:34:35  [ERROR] : 执行Appium滑动方法失败
+18:34:35  [ERROR] : java.lang.NullPointerException
+java.lang.NullPointerException: null
+	at com.kc.appKeyWord.AppKeyWord.appiumSwipe(AppK18:34:41  [INFO ] : 启动待测试APP
+18:35:16  [INFO ] : //*[@text='智行火车票']元素进行点击
+18:35:24  [INFO ] : //*[@text='高铁动车']元素进行点击
+18:35:24  [INFO ] : //*[@text='火车票查询']元素进行点击
+ck(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.WechatAppletTest.main(WechatAppletTest.java:26) [classes/:?]

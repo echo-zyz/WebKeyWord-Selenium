@@ -1,0 +1,5 @@
+14:08:12  [INFO ] : 通过cmd启动appiumserver服务
+14:08:12  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p  -glog/20200218+14-08-12AppiumLog.txt --local-timezone --log-timestamp
+14:16:17  [INFO ] : 通过cmd启动appiumserver服务
+14:16:17  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+14-16-17AppiumLog.txt --local-timezone --log-timestamp
+14:16:37  [INFO ] : =====================测试开始=================

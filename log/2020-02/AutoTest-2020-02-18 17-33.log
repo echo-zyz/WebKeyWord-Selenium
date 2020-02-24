@@ -1,0 +1,185 @@
+17:15:36  [INFO ] : 通过cmd启动appiumserver服务
+17:15:36  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-15-36AppiumLog.txt --local-timezone --log-timestamp
+17:15:46  [INFO ] : 启动待测试APP
+17:16:02  [INFO ] : =====================测试开始=================
+17:16:05  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:16:08  [ERROR] : org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 54287c3c-9b2c-4f1c-bdc1-b52282ce999f
+org.openqa.selenium.StaleElementReferenceException: androidx.test.uiautomator.StaleObjectException
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 54287c3c-9b2c-4f1c-bdc1-b52282ce999f
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:167) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:24) [classes/:?]
+17:16:08  [ERROR] : java.io.FileNotFoundException: SCRshot\input20200218+17-16-08.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\input20200218+17-16-08.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:414) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.input(AppKeyWord.java:168) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:24) [classes/:?]
+17:16:08  [ERROR] : 截图失败！
+17:16:39  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 54287c3c-9b2c-4f1c-bdc1-b52282ce999f
+*** Element info: {Using=xpath, value=//*[@content-desc='登 录']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 54287c3c-9b2c-4f1c-bdc1-b52282ce999f
+*** Element info: {Using=xpath, value=//*[@content-desc='登 录']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:180) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:25) [classes/:?]
+17:16:39  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200218+17-16-39.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200218+17-16-39.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:414) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:181) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:25) [classes/:?]
+17:16:39  [ERROR] : 截图失败！
+17:17:01  [ERROR] : 执行断言时报错
+17:17:01  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Or17:17:05  [INFO ] : =====================测试开始=================
+17:17:09  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:17:10  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:17:11  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:17:17  [ERROR] : 执行断言时报错
+17:17:17  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (multiple root elements detected). Try changing the 'normalizeTagNames' driver setting to 'true' in order to workaround the problem.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d135eca3-0150-4702-854e-ba81c3b2b62b
+*** Element info: {Using=xpath, value=//*[@resource-id='com.tencent.mobileqq:id/ivTitleName']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Error in building: Ill-formed XML document (multiple root elements detected). Try changing the 'normalizeTagNames' driver setting to 'true' in order to workaround the problem.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceS17:17:17  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+17:17:21  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+17:17:26  [INFO ] : 执行cmd命令:adb shell input tap 459 214
+17:17:31  [INFO ] : //*[@content-desc='聊天设置']元素进行点击
+17:17:32  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/clw']元素进行点击
+17:17:35  [INFO ] : //*[@content-desc='QQ空间']元素进行点击
+17:17:40  [INFO ] : 执行cmd命令:adb shell input tap 522 780
+17:17:46  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/c7p']元素进行点击
+17:17:47  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/bh5']元素进行点击
+17:17:49  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h_0']元素中输入roy老师好帅！
+17:17:49  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h8u']元素进行点击
+17:17:51  [INFO ] : 测试用例执行失败
+ 执行cmd命令:adb shell input tap 459 214
+17:18:05  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d135eca3-0150-4702-854e-ba81c3b2b62b
+*** Element info: {Using=xpath, value=//*[@content-desc='聊天设置']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d135eca3-0150-4702-854e-ba81c3b2b62b
+*** Element info: {Using=xpath, value=//*[@content-desc='聊天设置']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:180) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:35) [classes/:?]
+17:18:05  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200218+17-18-05.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200218+17-18-05.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:414) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:181) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:35) [classes/:?]
+17:18:05  [ERROR] : 截图失败！
+17:18:36  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d135eca3-0150-4702-854e-ba81c3b2b62b
+*** Element info: {Using=xpath, value=//*[@resource-id='com.tencent.mobileqq:id/clw']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d135eca3-0150-4702-854e-ba81c3b2b62b
+*** Element info: {Using=xpath, value=//*[@resource-id='com.tencent.mobileqq:id/clw']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:180) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:36) [classes/:?]
+17:18:36  [ERROR] : java.io.FileNotFoundException: SCRshot\click20200218+17-18-36.png (系统找不到指定的路径。)
+java.io.FileNotFoundException: SCRshot\click20200218+17-18-36.png (系统找不到指定的路径。)
+	at com.kc.appKeyWord.AppKeyWord.saveScrShot(AppKeyWord.java:414) [classes/:?]
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:181) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:36) [classes/:?]
+17:18:36  [ERROR] : 截图失败！
+17:18:51  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d135eca3-0150-4702-854e-ba81c3b2b62b
+*** Element info: {Using=xpath, value=//*[@content-desc='QQ空间']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d135eca3-0150-4702-854e-ba81c3b2b62b
+*** Element info: {Using=xpath, value=//*[@content-desc='QQ空间']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:180) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:37) [classes/:?]
+17:18:53  [INFO ] : 通过cmd启动appiumserver服务
+17:18:53  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-18-53AppiumLog.txt --local-timezone --log-timestamp
+17:19:03  [INFO ] : 启动待测试APP
+17:19:13  [INFO ] : =====================测试开始=================
+17:19:16  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:19:17  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:19:18  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:19:24  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+17:19:30  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+17:19:32  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+17:19:37  [INFO ] : 执行cmd命令:adb shell input tap 459 214
+17:19:43  [INFO ] : //*[@content-desc='聊天设置']元素进行点击
+17:19:44  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/clw']元素进行点击
+17:19:46  [INFO ] : //*[@content-desc='QQ空间']元素进行点击
+17:19:51  [INFO ] : 执行cmd命令:adb shell input tap 522 780
+17:19:56  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/c7p']元素进行点击
+17:19:58  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/bh5']元素进行点击
+17:19:59  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h_0']元素中输入roy老师好帅！
+17:20:00  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h8u']元素进行点击
+17:20:02  [INFO ] : 测试用例执行失败
+17:23:25  [INFO ] : 通过cmd启动appiumserver服务
+17:23:25  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+17-23-25AppiumLog.txt --local-timezone --log-timestamp
+17:23:35  [INFO ] : 启动待测试APP
+17:23:45  [INFO ] : =====================测试开始=================
+17:23:49  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+17:23:50  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+17:23:50  [INFO ] : //*[@content-desc='登 录']元素进行点击
+17:23:57  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/ivTitleName']断言成功，测试用例执行成功
+17:24:02  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素进行点击
+17:24:04  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/et_search_keyword']元素中输入roy
+17:24:09  [INFO ] : 执行cmd命令:adb shell input tap 459 214
+17:24:14  [INFO ] : //*[@content-desc='聊天设置']元素进行点击
+17:24:16  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/clw']元素进行点击
+17:24:18  [INFO ] : //*[@content-desc='QQ空间']元素进行点击
+17:24:23  [INFO ] : 执行cmd命令:adb shell input tap 522 780
+17:24:28  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/c7p']元素进行点击
+17:24:29  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/bh5']元素进行点击
+17:24:31  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h_0']元素中输入roy老师好帅！
+17:24:31  [INFO ] : //*[@resource-id='com.tencent.mobileqq:id/h8u']元素进行点击
+17:24:32  [INFO ] : //*[@content-desc='roy老师好帅！']断言成功，测试用例执行成功

@@ -1,0 +1,43 @@
+11:18:50  [INFO ] : 通过cmd启动appiumserver服务
+11:18:50  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-18-50AppiumLog.txt --local-timezone --log-timestamp
+11:19:10  [INFO ] : 启动手机系统浏览器（chrome）
+11:19:39  [INFO ] : 通过cmd启动appiumserver服务
+11:19:39  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-19-39AppiumLog.txt --local-timezone --log-timestamp
+11:19:59  [INFO ] : 启动手机系统浏览器（chrome）
+11:20:21  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+11:20:32  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+11:20:42  [INFO ] : 现在的context是：CHROMIUM
+11:21:14  [INFO ] : 现在的context是：NATIVE_APP
+11:21:14  [INFO ] : 执行cmd命令:adb shell input tap 321 163
+11:21:14  [INFO ] : 执行cmd命令:adb shell input text 地球脉动 
+11:27:33  [INFO ] : 通过cmd启动appiumserver服务
+11:27:33  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-27-33AppiumLog.txt --local-timezone --log-timestamp
+11:27:53  [INFO ] : 启动手机系统浏览器（chrome）
+11:28:15  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+11:28:21  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+11:28:26  [INFO ] : 现在的context是：CHROMIUM
+11:29:03  [INFO ] : 现在的context是：NATIVE_APP
+11:29:06  [INFO ] : 执行cmd命令:adb shell input tap 321 163
+11:29:09  [INFO ] : 执行cmd命令:adb shell input text 地球脉动 
+11:30:21  [INFO ] : 通过cmd启动appiumserver服务
+11:30:21  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-30-21AppiumLog.txt --local-timezone --log-timestamp
+11:30:41  [INFO ] : 启动手机系统浏览器（chrome）
+11:31:00  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+11:31:06  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+11:31:11  [INFO ] : 现在的context是：CHROMIUM
+11:31:51  [INFO ] : 执行cmd命令:adb shell input tap 321 163
+11:31:54  [INFO ] : 执行cmd命令:adb shell input text 地球脉动 
+11:38:40  [INFO ] : 通过cmd启动appiumserver服务
+11:38:40  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-38-40AppiumLog.txt --local-timezone --log-timestamp
+11:39:00  [INFO ] : 启动手机系统浏览器（chrome）
+11:39:27  [INFO ] : 通过cmd启动appiumserver服务
+11:39:27  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200221+11-39-27AppiumLog.txt --local-timezone --log-timestamp
+11:39:47  [INFO ] : 启动手机系统浏览器（chrome）
+11:40:08  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+11:40:14  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+11:40:19  [INFO ] : 现在的context是：CHROMIUM
+11:40:56  [INFO ] : 现在的context是：NATIVE_APP
+11:40:59  [INFO ] : 执行cmd命令:adb shell input tap 298 144
+11:41:02  [INFO ] : 执行cmd命令:adb shell input text 地球脉动 
+11:41:02  [INFO ] : 执行cmd命令:adb shell input tap 181 233
+11:41:05  [INFO ] : 执行cmd命令:adb shell input tap 181 233

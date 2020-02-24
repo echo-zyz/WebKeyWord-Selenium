@@ -1,0 +1,28 @@
+16:06:04  [INFO ] : 通过cmd启动appiumserver服务
+16:06:04  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+16-06-04AppiumLog.txt --local-timezone --log-timestamp
+16:06:14  [INFO ] : 启动待测试APP
+16:06:30  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+16:06:32  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+16:06:32  [INFO ] : //*[@content-desc='登 录']元素进行点击
+16:06:32  [INFO ] : 启动手机系统浏览器（chrome）
+16:06:47  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+16:06:47  [INFO ] : 现在的context是：NATIVE_APP
+16:06:53  [INFO ] : //*[@text='一键登录']元素进行点击
+16:06:56  [INFO ] : //*[@text='登录']元素进行点击
+16:07:06  [INFO ] : 执行cmd命令:adb shell input tap 847 1557
+16:07:07  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 6665e349-9cbc-4897-a199-12b57536be64
+*** Element info: {Using=xpath, value=//*[@text='赞']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 6665e349-9cbc-4897-a199-12b57536be64
+*** Element info: {Using=xpath, value=//*[@text='赞']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.qqzone.main(qqzone.java:33) [classes/:?]

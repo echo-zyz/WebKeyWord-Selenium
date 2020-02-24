@@ -1,0 +1,1 @@
+2020-02-23 17:39:15:002 [Appium] Welcome to Appium v1.16.0

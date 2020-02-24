@@ -24,7 +24,7 @@ public class GoogleDriver { // Chrome浏览器驱动类
 		ChromeOptions option = new ChromeOptions();
 		// 去除Chrome浏览器上的被自动化软件操作警告，目前新版本chrome不支持
 //		option.addArguments("disable-infobars");
-		option.addArguments("log-level=3");
+		option.addArguments("--disable-gpu");
 		/**
 		 * 加载chrome用户文件，这里使用的是浏览器默认存储的用户文件目录。 在chrome浏览器里通过地址栏里输入chrome://version
 		 * 进行访问，能够看到个人资料路径 注意个人资料路径中复制时，只需要到User Data这一级，不需要Default这一级

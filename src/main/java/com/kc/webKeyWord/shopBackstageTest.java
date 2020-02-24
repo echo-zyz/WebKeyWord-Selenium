@@ -10,16 +10,16 @@ public class shopBackstageTest {
 		//登录商城后台
 		shopBackstageLogin(web);
 		//删除商品
-		deleteGood(web);
+//		deleteGood(web);
 		web.halt("3");
 		//添加商品
 		String goodName="量子手机七代";
 		addGood(web,goodName);
         web.halt("5");
-        //web.assertContainsEleText("//div[text()='量子纠缠手机三代']", "量子纠缠手机三代");
-        web.assertPageContains(goodName);
-        web.halt("30");
-        web.closeBrowser();
+//        //web.assertContainsEleText("//div[text()='量子纠缠手机三代']", "量子纠缠手机三代");
+//        web.assertPageContains(goodName);
+//        web.halt("30");
+//        web.closeBrowser();
 	
 	
 	}

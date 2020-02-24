@@ -1,0 +1,14 @@
+23:30:02  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614
+23:30:03  [INFO ] : //*[@resource-id='fm-login-password']元素中输入qq08683065
+23:30:03  [INFO ] : //*[@content-desc='登录']元素进行点击
+23:37:19  [INFO ] : 通过cmd启动appiumserver服务
+23:37:19  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+23-37-19AppiumLog.txt --local-timezone --log-timestamp
+23:37:39  [INFO ] : 启动手机系统浏览器（chrome）
+23:39:28  [INFO ] : 通过cmd启动appiumserver服务
+23:39:28  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200220+23-39-28AppiumLog.txt --local-timezone --log-timestamp
+23:39:48  [INFO ] : 启动手机系统浏览器（chrome）
+23:40:10  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+23:40:21  [INFO ] : //*[@content-desc='账号登录']元素进行点击
+23:40:32  [INFO ] : //*[@resource-id='fm-login-id']元素中输入18617099614
+23:40:33  [INFO ] : //*[@resource-id='fm-login-password']元素中输入qq08683065
+23:40:33  [INFO ] : //*[@content-desc='登录']元素进行点击

@@ -1,0 +1,3 @@
+12:40:42  [INFO ] : 通过cmd启动appiumserver服务
+12:40:42  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+12-40-42AppiumLog.txt --local-timezone --log-timestamp
+12:41:02  [INFO ] : 启动手机系统浏览器（chrome）

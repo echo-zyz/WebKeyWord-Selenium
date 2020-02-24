@@ -6,18 +6,21 @@ import com.kc.webKeyWord.WebKeyWord;
 public class shopBackstageLoadupGoods {
 	public static void main(String[] args) {
 		WebKeyWord web=new WebKeyWord();
+		web.openBrowser("chrome");
+		web.visitWeb("http://www.testingedu.com.cn:8000/Admin/Admin/login");
+		web.loginShopBackstage();
 		AutoLogger.log.info("===============上架商品测试开始=================");
 		web.halt("5");
 		web.click("//a[text()='商城']");
 		web.halt("5");
 		web.switchToIframeByIdOrName("workspace");
-		web.hover("//td/div[text()='253']/../preceding-sibling::td[1]");
-		web.halt("5");
-		AutoLogger.log.info("开始删除老旧商品");
-		web.click("//td/div[text()='253']/../preceding-sibling::td[1]//a[text()='删除商品']");
-		web.halt("3");
-		web.click("//a[text()='确定']");
-		web.halt("3");
+//		web.hover("//td/div[text()='253']/../preceding-sibling::td[1]");
+//		web.halt("5");
+//		AutoLogger.log.info("开始删除老旧商品");
+//		web.click("//td/div[text()='253']/../preceding-sibling::td[1]//a[text()='删除商品']");
+//		web.halt("3");
+//		web.click("//a[text()='确定']");
+//		web.halt("3");
 		AutoLogger.log.info("开始上架新品");
 		web.click("//span[text()='添加商品']");
 		web.halt("5");

@@ -1,0 +1,47 @@
+15:23:01  [INFO ] : 通过cmd启动appiumserver服务
+15:23:01  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+15-23-01AppiumLog.txt --local-timezone --log-timestamp
+15:23:11  [INFO ] : 启动待测试APP
+15:23:23  [INFO ] : =====================测试开始=================
+15:23:27  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+15:23:28  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+15:25:51  [INFO ] : 通过cmd启动appiumserver服务
+15:25:51  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+15-25-51AppiumLog.txt --local-timezone --log-timestamp
+15:26:01  [INFO ] : 启动待测试APP
+15:26:10  [INFO ] : =====================测试开始=================
+15:26:14  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+15:26:15  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+15:26:15  [INFO ] : //*[@content-desc='登 录']元素进行点击
+15:34:47  [INFO ] : 通过cmd启动appiumserver服务
+15:34:47  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+15-34-47AppiumLog.txt --local-timezone --log-timestamp
+15:34:57  [INFO ] : 启动待测试APP
+15:35:09  [INFO ] : =====================测试开始=================
+15:35:13  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+15:35:14  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+15:35:15  [INFO ] : //*[@content-desc='登 录']元素进行点击
+15:35:50  [ERROR] : 执行断言时报错
+15:35:50  [ERROR] : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 5248fd7b-baae-4948-93f9-2f0d5d30b7e1
+*** Element info: {Using=xpath, value=//*[@resourceid='com.tencent.mobileqq:id/ivTitleName']}
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, databaseEnabled: false, desired: {appActivity: .activity.LoginActivity, appPackage: com.tencent.mobileqq, deviceName: 127.0.0.1:7555, noReset: true, noSign: true, platformName: android, platformVersion: 6.0.1, resetKeyboard: true, udid: 127.0.0.1:7555, unicodeKeyboard: true}, deviceApiLevel: 23, deviceManufacturer: HUAWEI, deviceModel: BLA-AL00, deviceName: 127.0.0.1:7555, deviceScreenDensity: 240, deviceScreenSize: 720x1280, deviceUDID: 127.0.0.1:7555, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 6.0.1, resetKeyboard: true, statBarHeight: 36, takesScreenshot: true, udid: 127.0.0.1:7555, unicodeKeyboard: true, viewportRect: {height: 1244, left: 0, top: 36, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 5248fd7b-baae-4948-93f9-2f0d5d30b7e1
+*** Element info: {Using=xpath, value=//*[@resourceid='com.tencent.mobileqq:id/ivTitleName']}
+	at com.kc.appKeyWord.AppKeyWord.assertSame(AppKeyWord.java:270) [classes/:?]
+	at com.kc.AppiumTest.QQappTest.main(QQappTest.java:27) [classes/:?]
+15:37:10  [INFO ] : 通过cmd启动appiumserver服务
+15:37:10  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200218+15-37-10AppiumLog.txt --local-timezone --log-timestamp
+15:37:20  [INFO ] : 启动待测试APP
+15:37:31  [INFO ] : =====================测试开始=================
+15:37:35  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+15:37:36  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+15:37:37  [INFO ] : //*[@content-desc='登 录']元素进行点击
+15:37:43  [INFO ] : 测试用例执行成功

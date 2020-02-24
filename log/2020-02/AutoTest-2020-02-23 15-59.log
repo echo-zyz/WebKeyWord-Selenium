@@ -1,0 +1,71 @@
+15:38:14  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:38:14  [INFO ] : 现在的context是：NATIVE_APP
+15:38:20  [INFO ] : //*[@text='一键登录']元素进行点击
+15:38:23  [INFO ] : //*[@text='登录']元素进行点击
+15:41:16  [INFO ] : 通过cmd启动appiumserver服务
+15:41:16  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+15-41-16AppiumLog.txt --local-timezone --log-timestamp
+15:41:26  [INFO ] : 启动待测试APP
+15:41:43  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+15:41:44  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+15:41:45  [INFO ] : //*[@content-desc='登 录']元素进行点击
+15:41:45  [INFO ] : 启动手机系统浏览器（chrome）
+15:42:00  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:42:00  [INFO ] : 现在的context是：NATIVE_APP
+15:42:06  [INFO ] : //*[@text='一键登录']元素进行点击
+15:42:09  [INFO ] : //*[@text='登录']元素进行点击
+15:42:13  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 00e433c3-758f-4acc-8845-e1c5debe270e
+*** Element info: {Using=xpath, value=//*[@text='赞']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: 00e433c3-758f-4acc-8845-e1c5debe270e
+*** Element info: {Using=xpath, value=//*[@text='赞']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.qqzone.main(qqzone.java:32) [classes/:?]
+15:47:48  [INFO ] : 通过cmd启动appiumserver服务
+15:47:48  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+15-47-48AppiumLog.txt --local-timezone --log-timestamp
+15:47:58  [INFO ] : 启动待测试APP
+15:48:15  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+15:48:16  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+15:48:18  [INFO ] : //*[@content-desc='登 录']元素进行点击
+15:48:18  [INFO ] : 启动手机系统浏览器（chrome）
+15:48:34  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:48:34  [INFO ] : 现在的context是：NATIVE_APP
+15:48:39  [INFO ] : //*[@text='一键登录']元素进行点击
+15:48:42  [INFO ] : //*[@text='登录']元素进行点击
+15:48:52  [INFO ] : 执行cmd命令:adb shell input tap 847 1557
+15:49:40  [INFO ] : 通过cmd启动appiumserver服务
+15:49:40  [INFO ] : 执行cmd命令:appium -a 127.0.0.1 -p 12345 -glog/20200223+15-49-40AppiumLog.txt --local-timezone --log-timestamp
+15:49:50  [INFO ] : 启动待测试APP
+15:50:02  [INFO ] : //*[@content-desc='请输入QQ号码或手机或邮箱']元素中输入493187431
+15:50:03  [INFO ] : //*[@content-desc='密码 安全']元素中输入ACHAO19870426
+15:50:04  [INFO ] : //*[@content-desc='登 录']元素进行点击
+15:50:04  [INFO ] : 启动手机系统浏览器（chrome）
+15:50:20  [INFO ] : 当前的context是：CHROMIUM所有的context是：[NATIVE_APP, CHROMIUM]
+15:50:20  [INFO ] : 现在的context是：NATIVE_APP
+15:50:26  [INFO ] : //*[@text='一键登录']元素进行点击
+15:50:29  [INFO ] : //*[@text='登录']元素进行点击
+15:50:39  [INFO ] : 执行cmd命令:adb shell input tap 847 1557
+15:50:40  [ERROR] : org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: ca181866-5065-46b6-80db-bc4e5ca261d5
+*** Element info: {Using=xpath, value=//*[@text='赞']}
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to remote server. Original error: Error: socket hang up
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ADMIN-PC', ip: '192.168.0.100', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '10.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.android.browser.Browser..., appPackage: com.android.browser, browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., databaseEnabled: false, desired: {browserName: Browser, chromedriverExecutable: C:\Users\admin\Desktop\yesh..., deviceName: 127.0.0.1:62001, noReset: true, noSign: true, platformName: android, platformVersion: 5.1.1, resetKeyboard: true, udid: 127.0.0.1:62001, unicodeKeyboard: true}, deviceApiLevel: 22, deviceManufacturer: OPPO, deviceModel: OPPO R11, deviceName: 127.0.0.1:62001, deviceScreenDensity: 320, deviceScreenSize: 900x1600, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: true, noSign: true, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 5.1.1, resetKeyboard: true, statBarHeight: 50, takesScreenshot: true, udid: 127.0.0.1:62001, unicodeKeyboard: true, viewportRect: {height: 1550, left: 0, top: 50, width: 900}, warnings: {}, webStorageEnabled: false}
+Session ID: ca181866-5065-46b6-80db-bc4e5ca261d5
+*** Element info: {Using=xpath, value=//*[@text='赞']}
+	at com.kc.appKeyWord.AppKeyWord.click(AppKeyWord.java:200) [classes/:?]
+	at com.kc.AppiumTest.qqzone.main(qqzone.java:33) [classes/:?]
